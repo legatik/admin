@@ -189,22 +189,26 @@ view = views.Main.extend({
 //	            ing_list: m2,
 //	            arr_comments:[]
 //	        })
-//	        $('.success',this.el).removeClass('hide')
-//	        $('input').val('')
-//	        $('textarea').val('')
-//	        $('.ing', this.el).each(function(index, one) {
-//	            console.log('eeee',arguments);
-//	            if (!$(one).hasClass('first')) {
-//	                $(one).remove()
-//	                $('.inglist br', this.el).remove()
-//	            }
-//	        })
-//	        $('.col', this.el).each(function(index, one) {
-//	            console.log('eeee',arguments);
-//	            if (!$(one).hasClass('first')) {
-//	                $(one).remove()
-//	            }
-//	        })
+	        $('.success',this.el).removeClass('hide')
+	        $('input').val('')
+	        $('textarea').val('')
+	        $('.ing', this.el).each(function(index, one) {
+	            console.log('eeee',arguments);
+	            if (!$(one).hasClass('first')) {
+	                $(one).remove()
+	                $('.inglist br', this.el).remove()
+	            }
+	        })
+	        $('.col', this.el).each(function(index, one) {
+	            if (!$(one).hasClass('first')) {
+	                $(one).remove()
+	            }
+	        })
+	        $('.item-recipe', this.el).each(function(index, one) {
+	            if (!$(one).hasClass('first')) {
+	                $(one).remove()
+	            }
+	        })
 	    }
 	},
 

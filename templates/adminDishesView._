@@ -50,7 +50,7 @@
                 <tr class="odd">
                     <td>Рецепт</td>
                     <td id="rec-area-cont"> 
-                      <div class="item-recipe">
+                      <div class="item-recipe first">
                         <div>Шаг 1</div>
                         <textarea class="recipe"/>
                       </div>
