@@ -3,10 +3,14 @@ view = views.Main.extend({
 	template: 'adminDishesView',
 
 	initialize: function (options) {
+	    if (Bones.server){return}
+	    this.fileTitle
+	    this.fileStep = []
 	    var self = this;
-		_.bindAll(this, 'render');
+		_.bindAll(this, 'render','changeTitlePic',"changeStepPics");
 		this.prodMas = []
 		this.catMas = []
+	    
 //		Bones.home = this;
 		this.ingCol = 1;
         var pro = new models.Products;
@@ -38,8 +42,20 @@ view = views.Main.extend({
         'click .addDish': 'addDish',
         'keyup .col': 'controlCol',
         'click #addStep' : 'addStepRec',
-        'click #delStepRec' : 'delStepRec'
+        'click #delStepRec' : 'delStepRec',
+        'change #title-picture':"changeTitlePic",
+        'change #step-pictures':"changeStepPics"
 	},
+
+    changeStepPics:function(e){
+        this.fileStep.push(e.target.files[0])
+        console.log("this.fileStep",this.fileStep)
+        
+    },
+    
+    changeTitlePic:function(e){
+        this.fileTitle = e.target.files[0]
+    },
 
     addStepRec:function(e){
       var arrRecipe = $("#rec-area-cont").find(".recipe")
@@ -175,6 +191,8 @@ view = views.Main.extend({
 	            kremling_diet: $('.kremling-diet',this.el).val()
 	        }
           console.log("data",data)
+          console.log("this.fileTitle",this.fileTitle)
+          console.log("this.fileStep",this.fileStep)
 //	        dish.save({
 //	            id: id,
 //	            title: $('.title',this.el).val(),
