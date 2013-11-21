@@ -5,10 +5,10 @@
             <tbody>
                 <tr>
                     <td>Кухня</td>
-                    <td><select class="category">
+                    <td><select class="kitchen">
                       <option select>Русская</option>
                     </select>
-                    <div class="error title-error hide"> введите кухни</div></td>
+                    <div class="error kitchen-error hide"> введите кухни</div></td>
                 </tr>
                 <tr>
                     <td>Название</td>
@@ -33,15 +33,15 @@
                 </tr>
                 <tr>
                     <td>Количество порций</td>
-                    <td><input type="number" value="1"  /><div class="error time-error hide"> укажите количество порций</div></td>
+                    <td><input type="number" value="1" class="serving"  /><div class="error serving-error hide"> укажите количество порций</div></td>
                 </tr>
                 <tr>
                     <td class="odd">Сложность max(10)</td>
-                    <td><input type="number" style="width:174px" value="1"  max=10 min=1 /><div class="error time-error hide"> укажите сложность</div></td>
+                    <td><input type="number" style="width:174px" value="1" class="complexity"  max=10 min=1 /><div class="error complexity-error hide"> укажите сложность</div></td>
                 </tr>
                 <tr>
                     <td>Кремлевская диета</td>
-                    <td><input type="number"  value="1" /><div class="error time-error hide"> укажите сложность</div></td>
+                    <td><input type="number" class="kremling-diet" value="1" /><div class="error kremling-diet-error hide"> укажите значение кремлевской диеты</div></td>
                 </tr> 
                 <tr>
                     <td>Ингридиенты</td>

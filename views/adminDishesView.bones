@@ -138,10 +138,23 @@ view = views.Main.extend({
 	        $('.time-error', this.el).removeClass('hide')
 	        error=true
 	    }
-//	    if (!$('.recipe',this.el).val()) {
-//	        $('.recipe-error', this.el).removeClass('hide')
-//	        error=true
-//	    }
+	    if (!$('.serving',this.el).val()) {
+	        $('.serving-error', this.el).removeClass('hide')
+	        error=true
+	    }
+
+	    if (!$('.complexity',this.el).val()) {
+	        $('.complexity-error', this.el).removeClass('hide')
+	        error=true
+	    }
+
+	    if (!$('.kremling-diet',this.el).val()) {
+	        $('.kremling-diet-error', this.el).removeClass('hide')
+	        error=true
+	    }
+
+
+        console.log("error",error)
 	    if (!error) {
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
@@ -155,7 +168,11 @@ view = views.Main.extend({
 	            status: 'in_question',
 	            dateAdding: new Date(),
 	            who_added: this.user.id,
-	            arr_comments:[]
+	            comments:[],
+	            kitchen: $('.kitchen',this.el).val(),
+	            serving: $('.serving',this.el).val(),
+	            complexity: $('.complexity',this.el).val(),
+	            kremling_diet: $('.kremling-diet',this.el).val()
 	        }
           console.log("data",data)
 //	        dish.save({
