@@ -1,0 +1,48 @@
+<div class="AdminTitle">Блюда 
+	<a href="/adminAddDishes"">Добавить блюдо</a> <a href="/adminProductsListNoness">необязательные продукты</a> <a href="/adminProductsList">обязательные продукты</a>
+<!--	<div class="ac-search"><input type="text" name="search" size="20" placeholder="Search Videos"></div>-->
+</div>
+<div class="tablenav top">
+	<div class="alignleft actions">
+	<select name="new_role" id="new_role">
+		<option value="-1">Изменить статус</option>
+		<option value="aproved">Одобрено</option>
+		<option value="not-aproved">Не одобрено</option>
+	</select>
+	<input type="submit" name="changeit" id="changeit" class="button" value="Change">
+</div>
+	<div class="tablenav-pages">
+		<span class="displaying-num">45 items</span>
+		<span class="pagination-links">
+			<a class="first-page disabled" title="Go to the first page" href="javascript:void(0)">&lt;&lt;</a>
+			<a class="prev-page disabled" title="Go to the previous page" href="javascript:void(0)">&lt;</a>
+			<span class="paging-input">
+				<input class="current-page" title="Current page" type="text" name="paged" value="1" size="3"> of 
+				<span class="total-pages">4</span>
+			</span>
+			<a class="next-page" title="Go to the next page" href="javascript:void(0)">&gt;</a>
+			<a class="last-page" title="Go to the last page" href="javascript:void(0)">&gt;&gt;</a>
+		</span>
+	</div>
+	<br class="clear">
+</div>
+<table width="100%" border="1" class="admin-content" cellspacing="0" cellpadding="0">
+	<tr>
+<!--		<th scope="col" class="check-col"><input id="cb-select-all-1" type="checkbox"></th>-->
+<!--		<th scope="col" class="thumb"></th>-->
+        <th scope="col" class="check-col"><input id="cb-select-all-1" type="checkbox"></th>
+		<th scope="col" class="title-sort"><span>Название</span></th>
+<!--		<th scope="col">ID</th>-->
+		<th scope="col" class="date-sort"><span>Время добавления</span></th>
+<!--		<th scope="col" class="duration-sort"><span>Рейтинг</span></th>-->
+        <th scope="col" class="who-sort"><span>Кто добавил</span></th>
+		<th scope="col" class="recipe-sort"><span>Рецепт</span></th>
+		<th scope="col" class="status-sort"><span>Статус</span></th>
+	</tr>
+</table>	
+
+<div id="recipe-cont" class="hide">
+    
+</div>
+						
+

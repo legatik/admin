@@ -1,0 +1,109 @@
+<div id="admin-content">
+<a href="/adminDishesList">Список блюд</a> <a href="/adminProductsListNoness">необязательные продукты</a> <a href="/adminProductsList">обязательные продукты</a>
+    <table>
+        <caption>Добавить новое блюдо</caption>
+            <tbody>
+                <tr>
+                    <td>Кухня</td>
+                    <td><select class="category">
+                      <option select>Русская</option>
+                    </select>
+                    <div class="error title-error hide"> введите кухни</div></td>
+                </tr>
+                <tr>
+                    <td>Название</td>
+                    <td><input value="test" class="title"/><div class="error title-error hide"> введите название</div></td>
+                </tr>
+                 <tr class="odd">
+                    <td>Категория</td>
+                    <td>
+                        <select class="category">
+                            <option select>Первое</option>
+                            <option>Второе</option> 
+                            <option>Закуска</option>
+                            <option>Десерт</option>
+                            <option>Соус</option>
+                            <option>Напиток</option> 
+                        </select>
+                    </td>
+                </tr> 
+                <tr class="odd">
+                    <td>Время приготовления (мин)</td>
+                    <td><input value="1" type="number" class="time" step=5 /><div class="error time-error hide"> укажите время приготовления</div></td>
+                </tr>
+                <tr>
+                    <td>Количество порций</td>
+                    <td><input type="number" value="1"  /><div class="error time-error hide"> укажите количество порций</div></td>
+                </tr>
+                <tr>
+                    <td class="odd">Сложность max(10)</td>
+                    <td><input type="number" style="width:174px" value="1"  max=10 min=1 /><div class="error time-error hide"> укажите сложность</div></td>
+                </tr>
+                <tr>
+                    <td>Кремлевская диета</td>
+                    <td><input type="number"  value="1" /><div class="error time-error hide"> укажите сложность</div></td>
+                </tr> 
+                <tr>
+                    <td>Ингридиенты</td>
+                    <td class='inglist'><input value="1" class="first ing clear"/><div class="error ing-error hide"></div><input value="1"  class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
+                </tr>                 
+                <tr class="odd">
+                    <td>Рецепт</td>
+                    <td id="rec-area-cont"> 
+                      <div class="item-recipe">
+                        <div>Шаг 1</div>
+                        <textarea class="recipe"/>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                     <button id="addStep">Добавить шаг рецепта</button>
+                     <button id="delStepRec">Удалить последний шаг рецепта</button>
+                     <div style="display:inline-block" class="error recipe-error hide"> укажите рецепт</div>
+                  </td>
+                </tr>                               
+                <tr class="odd">
+                    <td>Картинка главная</td>
+                    <td><input type="file"/><div class="error recipe-error hide">    укажите картинку</div></td>
+                </tr>
+               <tr>
+                    <td>Картинки шагов приготовлениея</td>
+                    <td><input type="file"/><div class="error recipe-error hide">    укажите картинки</div></td>
+               </tr>   
+            </tbody>
+    </table>
+    <br/>
+        <button class="addDish">Добавить блюдо</button>
+        <div class="success hide">Блюдо успешно добавлено</div>
+</div>
+    
+
+    
+
+
+<div id="fix-cont">
+    <div id="modal-addIng">Вы указали новый ингридиент
+        <input class="prodname"><br />
+        <select class="species">
+            <option>Фрукты</option>
+            <option>Овощи</option>
+            <option>Рыба и морепродукты</option>
+            <option>Мясные продукты</option>
+            <option>Яйца и молочные продукты</option>
+            <option>Мука и мучные изделия</option>
+            <option>Добавки и витамины</option>
+        </select><br />
+        <select class="ness">
+            <option>Обязательно</option>
+            <option>Необязательно</option>
+        </select><br />
+        <button id="agree-addIng">добавить ингридиент</button><button id="cans-addIng">Отмена</button>
+    </div>
+</div>
+
+
+     
+
+

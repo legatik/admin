@@ -1,0 +1,228 @@
+#content {
+	color: red;
+}
+
+#header a {
+	margin-left: 20px;
+}
+
+.recipe {
+    width: 746px;
+    height: 85px
+}
+
+table {
+    width: 90%;
+    border-top: 1px solid #E5EFF8;
+    border-right: 1px solid #E5EFF8;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+caption {
+    color: #9BA9B4;
+    font-size: .94em;
+    letter-spacing: .1em;
+    margin: 1em 0 0 0;
+    padding: 0;
+    caption-side: top;
+    text-align: center;
+}
+
+thead th {
+background: #F4F9FE;
+text-align: center;
+font: bold 1.2em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+color: #66A3D3;
+}
+
+td {
+/*    background: #E0E9E9;*/
+    color: #678197;
+    border-bottom: 1px solid #E5EFF8;
+    border-left: 1px solid #E5EFF8;
+    padding: .3em 1em;
+/*    text-align: center;*/
+}
+
+th {
+font-weight: normal;
+color: #678197;
+text-align: left;
+border-bottom: 1px solid #E5EFF8;
+border-left: 1px solid #E5EFF8;
+padding: .3em 1em;
+}
+
+tr.odd td {
+background: #CBE0E0;
+}
+
+#modal-addIng {
+    position: absolute;
+    text-align: center;
+    width: 246px;
+    height: 114px;;
+    border: solid #E5EFF8;
+    color: #678197;
+    background: #DCD8FF;
+    top: 50%;
+    left: 50%;
+    margin-left: -123px;
+    margin-top: -50px;
+    z-index: 110;
+}
+
+#fix-cont {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(22, 22, 22, 0.7);
+    z-index: 100;
+}
+
+.hide {
+    display: none!important;
+}
+
+
+.error {
+    display: inline-block;
+    color: red;
+}
+
+
+.recipe-error {
+    vertical-align: 100px;
+}
+
+.success {
+color: green;
+}
+
+.ui-helper-hidden-accessible {
+display: none
+}
+
+.ui-widget-content {
+/*    border: none;*/
+    background: #F7FBFF;
+    width: 300px!important;
+}
+
+.neodobreno {
+    background: #FF8383;
+}
+
+.in-question {
+    background: #FFF89A;
+}
+
+.odobreno {
+    background: #9AFFA3;
+}
+
+.icon {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.remove-approved {
+    background: url('images/key_minus.png')
+}
+
+.add-approved {
+    background: url('images/key_plus.png')
+}
+
+.add-question {
+    background: url('images/key_question.png')
+}
+
+.delete-dish {
+   background: url('images/key_krest.png')
+}
+
+#recipe-cont {
+background: rgba(255, 170, 115, 0.7);
+position: fixed;
+top: 0;
+left: 50%;
+height: 500px;
+min-height: 450px;
+width: 700px;
+overflow: auto;
+border: 2px solid #6F6F6F;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/*word-wrap:break-word;*/
+white-space: pre-wrap;
+
+
+}
+
+.rec {
+    padding-left: 20px;
+    margin-top: -22px;
+}
+
+#recipe-cont h1 {
+    color: #CC590F;
+    padding-left: 170px;
+    font-size: 18px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#recipe-cont h2 {
+    color: #2A4E94;
+    padding-left: 30px;
+    font-size: 17px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-bottom: -14px;
+}
+
+#recipe-cont h2 span {
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+#recipe-cont h3 {
+    padding-left: 30px;
+    font-size: 15px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-bottom: -40px;
+}
+
+.close {
+    width:64px;
+    height:64px;
+    position: absolute;
+    background: url('images/gtk-close_2883.png');
+    cursor: pointer;
+
+}
+
+.AdminTitle a {
+    font-size: 16px!important;
+}
+
+.title {
+    width: 400px;
+}
+

@@ -1,0 +1,2556 @@
+var pro = new models.Product
+pro.save({
+	id: 'adcdfeee-ed21-d522-7c79-de2331212c51',
+	title: 'Батат',
+	species: 'Овощи',
+	caloric_content: 60,
+	price: 130,
+	proteins: 2,
+    fats: 0,
+    carbs: 13.8
+})
+
+var pro = new models.Product
+pro.save({
+	id: '676bc0ec-49a8-e7b3-dc64-a0fcb8f60244',
+	title: 'Огурец',
+	species: 'Овощи',
+	caloric_content: 14,
+	price: 50,
+	proteins: 0.8,
+    fats: 0.1,
+    carbs: 2.5 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'eb552287-a416-530e-cb27-39f692b7d6a7',
+	title: 'Чечевица',
+	species: 'Овощи',
+	caloric_content: 295,
+	price: 160,
+	proteins: 24,
+    fats: 1.5,
+    carbs: 46.3 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'fd586549-178b-3bb1-2ce1-ea25b8c666ef',
+	title: 'Чеснок',
+	species: 'Овощи',
+	caloric_content: 149,
+	price: 140,
+	proteins: 6.5,
+    fats: 0.5,
+    carbs: 29.9 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '9c7c8767-90d7-5214-6a48-3e09a123a21c',
+	title: 'Бобы',
+	species: 'Овощи',
+	caloric_content: 57,
+	price: 190,
+	proteins: 6,
+    fats: 0.1,
+    carbs: 8.5 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'b9dc000e-214e-b1d1-51b8-a8eca1276084',
+	title: 'Соя',
+	species: 'Овощи',
+	caloric_content: 364,
+	price: 60,
+	proteins: 34.9,
+    fats: 17.3,
+    carbs: 17.3 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e56954da-5533-5d03-14c2-48898e4216c9',
+	title: 'Фасоль белая',
+	species: 'Овощи',
+	caloric_content: 298,
+	price: 45,
+	proteins: 21,
+    fats: 2,
+    carbs: 47 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2f9c902c-2c6a-e575-101c-0cbe66cf2729',
+	title: 'Фасоль стручковая',
+	species: 'Овощи',
+	caloric_content: 23,
+	price: 75,
+	proteins: 2.5,
+    fats: 0.3,
+    carbs: 3 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2e83a658-1456-1c5c-5a60-70c09c6a25ea',
+	title: 'Цуккини',
+	species: 'Овощи',
+	caloric_content: 21,
+	proteins: 2.71,
+    fats: 0.4,
+    carbs: 2.01,
+    price: 25 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '160e125b-2bf8-b1cc-01a7-172d790c9ecc',
+	title: 'Свекла',
+	species: 'Овощи',
+	caloric_content: 42,
+	proteins: 1.5,
+    fats: 0.1,
+    carbs: 8.8,
+    price: 25 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '79103b59-53a8-c1fa-1b35-f0cc784a3535',
+	title: 'Топинамбур',
+	species: 'Овощи',
+	caloric_content: 61,
+	proteins: 2.1,
+    fats: 0.1,
+    carbs: 12.8,
+    price: 230 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '03cbb9ea-3820-b75d-57f9-21f372a050b8',
+	title: 'Тыква',
+	species: 'Овощи',
+	caloric_content: 22,
+	proteins: 1,
+    fats: 0.1,
+    carbs: 4.4,
+    price: 210 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a78c69a4-06cc-6ea0-483a-1d4b481eccee',
+	title: 'Фасоль красная',
+	species: 'Овощи',
+	caloric_content: 298,
+	proteins: 21,
+    fats: 2,
+    carbs: 47,
+    price: 45 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ea715d96-2939-6402-9da8-4ff27e873e9f',
+	title: 'Физалис',
+	species: 'Овощи',
+	caloric_content: 32,
+	proteins: 0.96,
+    fats: 1.02,
+    carbs: 3.94,
+    price: 900 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '55eb8c80-5478-24f9-1710-613f422c4ba6',
+	title: 'Артишок',
+	species: 'Овощи',
+	caloric_content: 28.2,
+	proteins: 1.2,
+    fats: 0.1,
+    carbs: 6,
+    price: 140 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '50d20037-5a8a-7e37-a5b6-22de43df5a37',
+	title: 'Баклажан',
+	species: 'Овощи',
+	caloric_content: 24,
+	proteins: 1.2,
+    fats: 0.1,
+    carbs: 4.5,
+    price: 90 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '42c74be6-64f0-9241-c666-62858e1e1465',
+	title: 'Горох',
+	species: 'Овощи',
+	caloric_content: 298,
+	proteins: 20.5,
+    fats: 2,
+    carbs: 49.5,
+    price: 25 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '54fa7d90-13e0-955c-eef6-7c68b6a8171f',
+	title: 'Кабачок',
+	species: 'Овощи',
+	caloric_content: 24,
+	proteins: 0.6,
+    fats: 0.3,
+    carbs: 4.6,
+    price: 60 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '474fba8d-8201-556d-71e0-0bdc8499fac1',
+	title: 'Капуста',
+	species: 'Овощи',
+	caloric_content: 28,
+	proteins: 1.8,
+    fats: 0.1,
+    carbs: 4.7,
+    price: 15 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e36ddb61-8c58-d59a-7dbc-c9f7351ff83d',
+	title: 'Картофель',
+	species: 'Овощи',
+	caloric_content: 77,
+	proteins: 2,
+    fats: 0.4,
+    carbs: 16.3,
+    price: 18 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'cc042a70-15f4-214d-34d6-c7c691893b02',
+	title: 'Морковь',
+	species: 'Овощи',
+	caloric_content: 35,
+	proteins: 1.3,
+    fats: 0.1,
+    carbs: 6.9,
+    price: 32
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'eea87ffa-4785-f81a-fd08-67acbb59ef69',
+	title: 'Брюква',
+	species: 'Овощи',
+	caloric_content: 37,
+	proteins: 1.2,
+    fats: 0.1,
+    carbs: 7.7,
+    price: 70 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'bb462876-3742-f010-a3a0-c9596d85132a',
+	title: 'Дайкон',
+	species: 'Овощи',
+	caloric_content: 21,
+	proteins: 1.2,
+    fats: 0,
+    carbs: 4.1,
+    price: 85 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1f7939d2-5938-5035-6136-9a29b1320c54',
+	title: 'Брокколи',
+	species: 'Овощи',
+	caloric_content: 34,
+	proteins: 2.82,
+    fats: 0.37,
+    carbs: 6.64,
+    price: 50 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ac527aac-373e-c5c8-947f-c9359534c4d5',
+	title: 'Кольраби',
+	species: 'Овощи',
+	caloric_content: 44,
+	proteins: 2.8,
+    fats: 0.1,
+    carbs: 7.9,
+    price: 395 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '177ef21c-6df2-9ada-c76e-24a18a16206c',
+	title: 'Помидор',
+	species: 'Овощи',
+	caloric_content: 19.9,
+	proteins: 0.6,
+    fats: 0.2,
+    carbs: 4.2,
+    price: 60 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '8d4c2d04-9f76-b243-857b-687e98d59f04',
+	title: 'Репа',
+	species: 'Овощи',
+	caloric_content: 32,
+	proteins: 0.5,
+    fats: 0.1,
+    carbs: 6.2,
+    price: 50 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'adea6c55-367a-1b86-3be6-18c4d525e1dc',
+	title: 'Редис',
+	species: 'Овощи',
+	caloric_content: 20,
+	proteins: 1.2,
+    fats: 0.1,
+    carbs: 3.4,
+    price: 155 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6157cc67-5f2b-bfc0-8249-1c9ac8b2c344',
+	title: 'Ревень',
+	species: 'Овощи',
+	caloric_content: 16,
+	proteins: 0.7,
+    fats: 0.1,
+    carbs: 2.5,
+    price: 170 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'd3d120e1-be18-cd34-a7e1-7519544ff74c',
+	title: 'Патиссон',
+	species: 'Овощи',
+	caloric_content: 19.4,
+	proteins: 0.6,
+    fats: 0.1,
+    carbs: 4.3,
+    price: 40 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6cdba7b5-3941-ff69-0038-202529b57aca',
+	title: 'Кукуруза',
+	species: 'Овощи',
+	caloric_content: 325,
+	proteins: 10.3,
+    fats: 4.9,
+    carbs: 60,
+    price: 35
+})
+
+var pro = new models.Product
+pro.save({
+	id: '10cc3d67-5cce-58e3-fffa-4172d0f8dd25',
+	title: 'Перец сладкий болгарский',
+	species: 'Овощи',
+	caloric_content: 26,
+	proteins: 1.3,
+    fats: 0.1,
+    carbs: 4.9,
+    price: 80
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7670ca69-fc4a-5546-42f3-9adc7fbe51ba',
+	title: 'Пастернак',
+	species: 'Овощи',
+	caloric_content: 47,
+	proteins: 1.4,
+    fats: 0.5,
+    carbs: 9.2,
+    price: 325
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e258bdda-e381-3a48-ac1f-ae8d835add04',
+	title: 'Лук репчатый',
+	species: 'Овощи',
+	caloric_content: 41,
+	proteins: 1.4,
+    fats: 0.2,
+    carbs: 8.2,
+    price: 30 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'd4148f10-4e5b-22ed-c545-f65b4833aee1',
+	title: 'Редька',
+	species: 'Овощи',
+	caloric_content: 36,
+	proteins: 1.9,
+    fats: 0.2,
+    carbs: 6.7,
+    price: 23
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e52a5cea-f6e1-87e1-ae44-0cbc15fabf22',
+	title: 'Маслины',
+	species: 'Овощи',
+	caloric_content: 115,
+	proteins: 0.8,
+    fats: 10.7,
+    carbs: 6.3,
+    price: 70 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '9bba887a-de6f-6b73-b19e-0a63ae1022ad',
+	title: 'Оливки',
+	species: 'Овощи',
+	caloric_content: 296,
+	proteins: 1.6,
+    fats: 23.7,
+    carbs: 19,
+    price: 60
+ 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '436b619e-b9b0-3825-8745-0bd3851228d5',
+	title: 'Перец горький',
+	species: 'Овощи',
+	caloric_content: 40,
+	proteins: 1.87,
+    fats: 0.44,
+    carbs: 7.31,
+    price: 385 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ec87738f-d389-d3b1-e010-ad673f36d66f',
+	title: 'Горошек зеленый ',
+	species: 'Овощи',
+	caloric_content: 55,
+	proteins: 5,
+    fats: 0.2,
+    carbs: 8.3,
+    price: 53
+ 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ef9ead98-ed20-0c05-392f-81a2d80a8906',
+	title: 'Капуста брюссельская',
+	species: 'Овощи',
+	caloric_content: 35,
+	proteins: 4.8,
+    fats: 0.3,
+    carbs: 3.1,
+    price: 115 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'b0eae26e-e8e0-2990-7397-a2ad68a5d9f6',
+	title: 'Капуста пекинская',
+	species: 'Овощи',
+	caloric_content: 16,
+	proteins: 1.2,
+    fats: 0.2,
+    carbs: 2.03,
+    price: 50
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1b8bf210-5de9-086d-d40b-06eb66916acf',
+	title: 'Капуста краснокочанная',
+	species: 'Овощи',
+	caloric_content: 26,
+	proteins: 0.8,
+    fats: 0.2,
+    carbs: 5.1,
+    price: 60
+})
+
+var pro = new models.Product
+pro.save({
+	id: '0b97c265-a720-5a93-64b2-292a374e48cf',
+	title: 'Капуста цветная',
+	species: 'Овощи',
+	caloric_content: 30,
+	proteins: 2.5,
+    fats: 0.3,
+    carbs: 4.2,
+    price: 150
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'bd02ae37-b12c-0c6d-92f3-e41812ffe3da',
+	title: 'Капуста савойская',
+	species: 'Овощи',
+	caloric_content: 28.2,
+	proteins: 1.2,
+    fats: 0.1,
+    carbs: 6,
+    price: 145
+})
+
+var pro = new models.Product
+pro.save({
+	id: '28ec9458-4c74-137e-22b1-35d64cd79f52',
+	title: 'Помидоры черри',
+	species: 'Овощи',
+	caloric_content: 15,
+	proteins: 0.8,
+    fats: 0.1,
+    carbs: 2.8,
+    price: 82
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7bf8faf2-4ee1-1ab2-02b0-5f3727709f15',
+	title: 'Корень петрушки',
+	species: 'Овощи',
+	caloric_content: 51,
+	proteins: 1.5,
+    fats: 0.6,
+    carbs: 10.1,
+    price: 550
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'f281f28b-afeb-6950-9d4c-bc666a59dd6c',
+	title: 'Фасоль',
+	species: 'Овощи',
+	caloric_content: 238,
+	proteins: 21,
+    fats: 2,
+    carbs: 47,
+    price: 45
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2be9cd95-c068-0330-bad7-9422e9c34ce5',
+	title: 'Маринованные огурцы',
+	species: 'Овощи',
+	caloric_content: 16.1,
+	proteins: 2.8,
+    fats: 0,
+    carbs: 1.3,
+    price: 92
+})
+
+var pro = new models.Product
+pro.save({
+	id: '951a269d-6e16-1e31-a958-3e739a1b2b43',
+	title: 'Фасоль консервированная',
+	species: 'Овощи',
+	caloric_content: 99,
+	proteins: 6.7,
+    fats: 0.3,
+    carbs: 17.4,
+    price: 100
+})
+
+var pro = new models.Product
+pro.save({
+	id: '245debdb-416d-e361-e416-9aaa4a7ab1fc',
+	title: 'Квашеная капуста',
+	species: 'Овощи',
+	caloric_content: 27,
+	proteins: 1.6,
+    fats: 0.1,
+    carbs: 5.2,
+    price: 74
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ef6f0bb3-210f-dcd1-5ca7-db1665551f2b',
+	title: 'Соленые огурцы',
+	species: 'Овощи',
+	caloric_content: 11.2,
+	proteins: 0.6,
+    fats: 0.08,
+    carbs: 2.2,
+    price: 45
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'f0935f41-92f3-5468-bc62-bb9c26a9f50f',
+	title: 'Томаты в собственном соку',
+	species: 'Овощи',
+	caloric_content: 19.9,
+	proteins: 0.6,
+    fats: 0.2,
+    carbs: 4.2,
+    price:  80
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'adde4f77-a27f-6148-44af-c9d5987c1ef8',
+	title: 'Корнишоны маринованные',
+	species: 'Овощи',
+	caloric_content: 20,
+	proteins: 1,
+    fats: 0.2,
+    carbs: 3.5,
+    price: 70
+})
+
+var pro = new models.Product
+pro.save({
+	id: '671b332d-d81e-e30c-a873-c5708a1dbdd3',
+	title: 'Морковь по-корейски',
+	species: 'Овощи',
+	caloric_content: 112.6,
+	proteins: 1.2,
+    fats: 8.2,
+    carbs: 9,
+    price: 87
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1ea576ee-b70a-0f83-80b3-28dc2655cb62',
+	title: 'Бамия',
+	species: 'Овощи',
+	caloric_content: 25,
+	proteins: 2,
+    fats: 0.1,
+    carbs: 3.83,
+    price: 210
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e838a4b6-a9e3-8509-676b-8c1b8f77bcc7',
+	title: 'Перец чили',
+	species: 'Овощи',
+	caloric_content: 40,
+	proteins: 2,
+    fats: 0.2,
+    carbs: 9.5,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'f559fcd7-cf2f-9365-4ea9-3cea93afeb9a',
+	title: 'Лук-шалот',
+	species: 'Овощи',
+	caloric_content: 72,
+	proteins: 2.5,
+    fats: 0.1,
+    carbs: 16.8,
+    price: 55
+})
+
+var pro = new models.Product
+pro.save({
+	id: '40d9ecc8-28a2-9567-a687-04758d7a51df',
+	title: 'Ямс',
+	species: 'Овощи',
+	caloric_content: 118,
+	proteins: 1.53,
+    fats: 0.17,
+    carbs: 23.78,
+    price: 250
+})
+
+var pro = new models.Product
+pro.save({
+	id: '25572843-75bd-2066-ff08-c9d7495b4e51',
+	title: 'Лук душистый джусай',
+	species: 'Овощи',
+	caloric_content: 41,
+	proteins: 1.4,
+    fats: 0.2,
+    carbs: 8.2,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7b3ec083-c106-6cd3-876b-a10f7c390937',
+	title: 'Маринованный горький перец',
+	species: 'Овощи',
+	caloric_content: 25,
+	proteins: 1.3,
+    fats: 0.1,
+    carbs: 4.9,
+    price: 400
+})
+
+var pro = new models.Product
+pro.save({
+	id: '8840e2d3-4e31-3cfd-dfc0-3510a5c33d28',
+	title: 'Перец халапеньо',
+	species: 'Овощи',
+	caloric_content: 30,
+	proteins: 1.35,
+    fats: 0.62,
+    carbs: 5.91,
+    price: 500
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ae16482a-953d-46f1-7e3f-4c8647b11c96',
+	title: 'Капуста пак чой',
+	species: 'Овощи',
+	caloric_content:13,
+	proteins: 1.5,
+    fats: 0.2,
+    carbs: 2.2,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: '9ad9d46f-6adb-ca27-0347-03943278a42f',
+	title: 'Капуста романеско',
+	species: 'Овощи',
+	caloric_content: 30,
+	proteins: 2.5,
+    fats: 0.3,
+    carbs: 4.2,
+    price: 200
+})
+
+var pro = new models.Product
+pro.save({
+	id: '0898d315-b721-ec25-3641-901976ffa5f4',
+	title: 'Соленые помидоры',
+	species: 'Овощи',
+	caloric_content: 13,
+	proteins: 1.1,
+    fats: 0.1,
+    carbs: 1.6,
+    price: 38
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'f91b9c10-8164-866c-5176-6b5cfce71ec7',
+	title: 'Маринованные помидоры',
+	species: 'Овощи',
+	caloric_content: 15,
+	proteins: 1.7,
+    fats: 0.2,
+    carbs: 1.8,
+    price: 94
+})
+
+var pro = new models.Product
+pro.save({
+	id: '38f307d6-af85-7b83-a782-e1540fdf3358',
+	title: 'Замороженная овощная смесь',
+	species: 'Овощи',
+	caloric_content: 35,
+	proteins: 2.6,
+    fats: 0.2,
+    carbs: 4.5,
+    price: 200
+})
+
+
+
+var pro = new models.Product
+pro.save({
+	id: '75b2e876-35b5-2ccd-3135-f9807aeacbc9',
+	title: 'Перец кайенский',
+	species: 'Овощи',
+	caloric_content: 93,
+	proteins: 0.2,
+    fats: 0.2,
+    carbs: 22.3,
+    price: 500
+})
+
+var pro = new models.Product
+pro.save({
+	id: '22e8d0e7-4cb9-25d1-d1d5-6257e18f343a',
+	title: 'Корень сельдерея',
+	species: 'Овощи',
+	caloric_content: 34,
+	proteins: 1.3,
+    fats: 0.3,
+    carbs: 6.5,
+    price: 63
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a1f49803-1b4e-2b1e-689a-dcff8b69327f',
+	title: 'Красный лук',
+	species: 'Овощи',
+	caloric_content: 41,
+	proteins: 1.4,
+    fats: 0.2,
+    carbs: 8.2,
+    price: 45 
+})
+
+
+
+
+
+//================================================================================================================
+//================================================================================================================
+//МОЛОЧНЫЕ ПРОДУКТЫ
+//================================================================================================================
+//================================================================================================================
+
+
+
+var pro = new models.Product
+pro.save({
+	id: 'f33ef81f-fce2-4088-5bea-a3af51cc4a69',
+	title: 'Сметана',
+	species: 'Молочные продукты',
+	caloric_content: 206,
+	proteins: 2.5,
+    fats: 20,
+    carbs: 3.4,
+    price: 132
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '3f9d72dd-de31-634f-8e12-62d79103d3f1',
+	title: 'Сметана 10% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 119,
+	proteins: 2.7,
+    fats: 10,
+    carbs: 4.5,
+    price: 46
+})
+
+var pro = new models.Product
+pro.save({
+	id: '251303d4-61b0-3b87-088e-da46d2275fe3',
+	title: 'Сметана 15% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 162,
+	proteins: 2.6,
+    fats: 15,
+    carbs: 3.6,
+    price: 54
+})
+
+var pro = new models.Product
+pro.save({
+	id: '5ca12fab-84c7-c654-b956-5fd1bbf66c54',
+	title: 'Cметана 20% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 206,
+	proteins: 2.5,
+    fats: 20,
+    carbs: 3.4,
+    price: 132
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'bd7a1bbf-109b-d28e-38e7-5e524af087dc',
+	title: 'Cметана 25% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 250,
+	proteins: 2.4,
+    fats: 25,
+    carbs: 3.2,
+    price: 147
+})
+
+
+
+var pro = new models.Product
+pro.save({
+	id: 'ddbb4cec-79bd-7914-0724-9ce0606dfd98',
+	title: 'Сметана 30% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 293,
+	proteins: 2.3,
+    fats: 30,
+    carbs: 3.1,
+    price: 175
+})
+
+var pro = new models.Product
+pro.save({
+	id: '521adba7-5369-817e-9a01-c893d66be68e',
+	title: 'Масло сливочное',
+	species: 'Молочные продукты',
+	caloric_content: 748,
+	proteins: 0.5,
+    fats: 82.5,
+    carbs: 0.8,
+    price: 260
+})
+
+var pro = new models.Product
+pro.save({
+	id: '57057880-4e52-ac12-37e8-f29709f7a33f',
+	title: 'Масло топленое',
+	species: 'Молочные продукты',
+	caloric_content: 892,
+	proteins: 0.2,
+    fats: 99,
+    carbs: 0,
+    price: 350
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'fa59fe6b-0a96-8a8f-f9b0-aea25041785a',
+	title: 'Творог',
+	species: 'Молочные продукты',
+	caloric_content: 136,
+	proteins: 21,
+    fats: 4,
+    carbs: 3,
+    price: 200
+})
+
+
+
+var pro = new models.Product
+pro.save({
+	id: '5ad147ee-3486-9611-33ed-a37d1a03ae5e',
+	title: 'Творог жирный',
+	species: 'Молочные продукты',
+	caloric_content: 236,
+	proteins: 15,
+    fats: 18,
+    carbs: 2.8,
+    price: 220
+})
+
+var pro = new models.Product
+pro.save({
+	id: '98ce99d2-a26d-bec1-5de6-2fa8a3553f35',
+	title: 'Творог полужирный',
+	species: 'Молочные продукты',
+	caloric_content: 169,
+	proteins: 18,
+    fats: 9,
+    carbs: 3,
+    price: 200
+})
+
+var pro = new models.Product
+pro.save({
+	id: '0f551a9b-0428-e81c-e5ec-014d66d6234d',
+	title: 'Творог обезжиренный',
+	species: 'Молочные продукты',
+	caloric_content: 110,
+	proteins: 22,
+    fats: 0.6,
+    carbs: 3.3,
+    price: 190
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1390f857-145a-8646-e20e-e312750130a3',
+	title: 'Творог зерненый',
+	species: 'Молочные продукты',
+	caloric_content: 155.3,
+	proteins: 16.7,
+    fats: 3,
+    carbs: 2,
+    price: 216
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'b7bac736-7da1-1b09-8736-bd03fb544916',
+	title: 'Молоко',
+	species: 'Молочные продукты',
+	caloric_content: 60,
+	proteins: 3,
+    fats: 3.2,
+    carbs: 4.7,
+    price: 28
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'fb49e20f-c7ff-17ab-78e1-ef2ed5fa8159',
+	title: 'Молоко коровье',
+	species: 'Молочные продукты',
+	caloric_content: 62,
+	proteins: 2.9,
+    fats: 3.5,
+    carbs: 4.7,
+    price: 28 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '76fc0948-eb02-ca82-62d0-1f74b59a144b',
+	title: 'Молоко кобылье',
+	species: 'Молочные продукты',
+	caloric_content: 41,
+	proteins: 2.2,
+    fats: 1,
+    carbs: 5.8,
+    price: 120 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '37db7c4c-49ec-3565-b248-ccccc8df0387',
+	title: 'Молоко овечье',
+	species: 'Молочные продукты',
+	caloric_content: 109.7,
+	proteins: 5.6,
+    fats: 7.7,
+    carbs: 4.8,
+    price: 100
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c9a1069b-b5f3-c614-6bb7-c447268eff02',
+	title: 'Молоко козье',
+	species: 'Молочные продукты',
+	caloric_content: 66.7,
+	proteins: 3,
+    fats: 4.2,
+    carbs: 4.5,
+    price: 100
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a25f5eb9-7fc7-b185-a657-f17bd574efb1',
+	title: 'Молоко топленое',
+	species: 'Молочные продукты',
+	caloric_content: 67,
+	proteins: 2.9,
+    fats: 4,
+    carbs: 4.7,
+    price: 130
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6ac2c76f-e1b3-95c4-040f-83378bd16040',
+	title: 'Молоко пастеризованное',
+	species: 'Молочные продукты',
+	caloric_content: 62,
+	proteins: 2.9,
+    fats: 3.5,
+    carbs: 4.7,
+    price: 30
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6a89fb82-0584-9fec-22e4-7d4ac8c5d133',
+	title: 'Молоко стерилизованное',
+	species: 'Молочные продукты',
+	caloric_content: 63,
+	proteins: 3,
+    fats: 3.5,
+    carbs: 4.7,
+    price: 35
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7ea18eae-18f0-42c0-8d6a-10dd6b1c482c',
+	title: 'Сливки',
+	species: 'Молочные продукты',
+	caloric_content: 206,
+	proteins: 2.5,
+    fats: 20,
+    carbs: 3.4,
+    price: 85
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'abc82b99-caa4-a225-ee9b-d2f1dbc9bcaf',
+	title: 'Сливки 10% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 119,
+	proteins: 2.7,
+    fats: 10,
+    carbs: 4.5,
+    price: 80
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7d3606d9-b49b-8293-85fc-4ce520126421',
+	title: 'Сливки 20% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 207,
+	proteins:2.5,
+    fats: 20,
+    carbs: 4,
+    price: 85
+})
+
+var pro = new models.Product
+pro.save({
+	id: '638b14ea-cabb-9a76-e764-b045664b9897',
+	title: 'Сливки 35% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 337,
+	proteins: 2.2,
+    fats: 35,
+    carbs: 3.2,
+    price: 98
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'd1d20570-3c6f-0ffb-d3fa-92f603b7e73f',
+	title: 'Сыр',
+	species: 'Молочные продукты',
+	caloric_content: 350,
+	proteins: 26.3,
+    fats: 26.6,
+    carbs: 0,
+    price: 250
+})
+
+var pro = new models.Product
+pro.save({
+	id: '58ebc102-af54-e1e2-a3ad-419e9c82827c',
+	title: 'Сгущенное молоко',
+	species: 'Молочные продукты',
+	caloric_content: 328,
+	proteins: 7.2,
+    fats: 8.5,
+    carbs: 55.5,
+    price: 47
+})
+
+
+
+
+var pro = new models.Product
+pro.save({
+	id: '6ecad940-5e4d-3c9e-8af2-7e7644148865',
+	title: 'Сыр маскарпоне',
+	species: 'Молочные продукты',
+	caloric_content: 412,
+	proteins: 4.8,
+    fats: 41.5,
+    carbs: 4.8,
+    price: 513
+})
+
+
+
+var pro = new models.Product
+pro.save({
+	id: 'eb091d4e-9304-6a89-c8ff-9ebae3c274ee',
+	title: 'Сыр фета',
+	species: 'Молочные продукты',
+	caloric_content: 264,
+	proteins: 14.21,
+    fats: 21.28,
+    carbs: 4.09,
+    price: 340 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '44057abd-8a0d-d9b4-7679-f2a53e6b1a49',
+	title: 'Сыр российский',
+	species: 'Молочные продукты',
+	caloric_content: 364,
+	proteins: 23.2,
+    fats: 29.5,
+    carbs: 0,
+    price: 250
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'feaf50a3-8266-efeb-a346-10982234547d',
+	title: 'Сыр пармезан',
+	species: 'Молочные продукты',
+	caloric_content: 392,
+	proteins: 35.75,
+    fats: 25.83,
+    carbs: 3.22,
+    price: 448
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '1eafa043-d6f3-6da1-7a7d-bd6844becad4',
+	title: 'Сыр брынза',
+	species: 'Молочные продукты',
+	caloric_content: 262,
+	proteins: 22.1,
+    fats: 19.2,
+    carbs: 0.4,
+    price: 240
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '35346230-1d7e-bd34-c89d-df8f475d7a5a',
+	title: 'Сыр чеддер',
+	species: 'Молочные продукты',
+	caloric_content: 380,
+	proteins: 23.5,
+    fats: 30.8,
+    carbs: 0,
+    price: 660
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'baf16676-6353-d192-e8ca-6d9856491cc6',
+	title: 'Козий сыр',
+	species: 'Молочные продукты',
+	caloric_content: 290,
+	proteins: 21.3,
+    fats: 21.7,
+    carbs: 0.7,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: '8fddc700-cf1f-9169-74a1-ea692d9ebb9f',
+	title: 'Сыр филадельфия',
+	species: 'Молочные продукты',
+	caloric_content: 342,
+	proteins: 5.93,
+    fats: 34.24,
+    carbs: 4.07,
+    price: 580
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e0a8c0e6-5fcb-ee1b-a4e0-baa92353c55d',
+	title: 'Сыр рикотта',
+	species: 'Молочные продукты',
+	caloric_content: 174,
+	proteins: 11.26,
+    fats: 12.98,
+    carbs: 3.04,
+    price: 560
+})
+
+var pro = new models.Product
+pro.save({
+	id: '720422dd-dc3c-8427-a75c-5d2c1720b170',
+	title: 'Сыр моцарелла',
+	species: 'Молочные продукты',
+	caloric_content: 280,
+	proteins: 27.5,
+    fats: 17.1,
+    carbs: 3.1,
+    price: 420
+})
+
+var pro = new models.Product
+pro.save({
+	id: '66d27299-7046-c8d0-73ad-df909ac1007b',
+	title: 'Сыр адыгейский',
+	species: 'Молочные продукты',
+	caloric_content: 264,
+	proteins: 19.8,
+    fats: 19.8,
+    carbs: 1.5,
+    price: 130
+})
+
+var pro = new models.Product
+pro.save({
+	id: '5312a933-911d-f1e1-d51f-d185331062e4',
+	title: 'Кефир',
+	species: 'Молочные продукты',
+	caloric_content: 53,
+	proteins: 2.9,
+    fats: 2.5,
+    carbs: 4,
+    price: 26
+})
+
+var pro = new models.ProductКефир обезжиренный
+pro.save({
+	id: '88cd2891-d41c-f102-ddfe-3c4d603d391b',
+	title: 'Кефир обезжиренный',
+	species: 'Молочные продукты',
+	caloric_content: 31,
+	proteins: 3,
+    fats: 0.05,
+    carbs: 4,
+    price: 24 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'cfff7f52-9cd7-8e46-ec6b-e4eb5a1e0c20',
+	title: 'Кефир 3,2% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 59,
+	proteins: 2.9,
+    fats: 3.2,
+    carbs: 4,
+    price: 30
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a31b1b2c-fab4-ea69-592c-a5cd6a3a325d',
+	title: 'Сыр плавленый',
+	species: 'Молочные продукты',
+	caloric_content: 300,
+	proteins: 20.5,
+    fats: 23,
+    carbs: 2.5,
+    price: 190
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c85216d0-92d9-dcae-3d33-8103dd22782d',
+	title: 'Сыр Голландский',
+	species: 'Молочные продукты',
+	caloric_content: 350,
+	proteins: 26.6,
+    fats: 26.6,
+    carbs: 0,
+    price: 145
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e4345d39-213b-6dc1-57a2-00fb2665dd18',
+	title: 'Сыр Камамбер',
+	species: 'Молочные продукты',
+	caloric_content: 324,
+	proteins: 15.3,
+    fats: 28.8,
+    carbs: 0.1,
+    price: 600
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'dc7e48f1-4246-3d5a-caab-1dd72e25d92f',
+	title: 'Сыр Сулугуни',
+	species: 'Молочные продукты',
+	caloric_content: 286,
+	proteins: 20.5,
+    fats: 22,
+    carbs: 0.4,
+    price: 170
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '6b245ba9-77e8-b24e-f6ae-d26dfe2b6e97',
+	title: 'Сыр сливочный',
+	species: 'Молочные продукты',
+	caloric_content: 342,
+	proteins: 5.93,
+    fats: 34.24,
+    carbs: 4.07,
+    price: 360
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '2e7cb4c1-37de-964b-1976-54176436b810',
+	title: 'Сыр Горгонзола',
+	species: 'Молочные продукты',
+	caloric_content: 330,
+	proteins: 19,
+    fats: 26,
+    carbs: 0,
+    price: 1045
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '82a05c6b-f55d-e779-5d32-b1946050db88',
+	title: 'Сыр Рокфор',
+	species: 'Молочные продукты',
+	caloric_content: 335,
+	proteins: 20.5,
+    fats: 27.5,
+    carbs: 0,
+    price: 1050
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '2f8c3f21-7f2a-05ea-ede5-e86cf87f88b5',
+	title: 'Йогурт',
+	species: 'Молочные продукты',
+	caloric_content: 57,
+	proteins: 4.1,
+    fats: 1.5,
+    carbs: 5.9,
+    price: 150
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '126ddf84-aa2e-13c4-e508-b6cb79a32ce4',
+	title: 'Кефир 2,5% жирности',
+	species: 'Молочные продукты',
+	caloric_content: 53,
+	proteins: 2.9,
+    fats: 2.5,
+    carbs: 4,
+    price: 26
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '9c05a258-2bc8-ad4b-9790-5b7010f3f0c0',
+	title: 'Мороженое Пломбир',
+	species: 'Молочные продукты',
+	caloric_content: 232,
+	proteins: 3.7,
+    fats: 15,
+    carbs: 20.4,
+    price: 150
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '1ce0b369-a804-c519-3632-5cb317070035',
+	title: 'Сливочное мороженое',
+	species: 'Молочные продукты',
+	caloric_content: 183,
+	proteins: 3.7,
+    fats: 10,
+    carbs: 19.4,
+    price: 137 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'a9d1642f-8319-6145-ad2a-84cf6bb752b0',
+	title: 'Сыр Дор Блю',
+	species: 'Молочные продукты',
+	caloric_content: 354,
+	proteins: 21,
+    fats: 30,
+    carbs: 2.34,
+    price: 836
+})
+
+var pro = new models.Product
+pro.save({
+	id: '73fa131f-fe43-911e-74ab-907094d4a313',
+	title: 'Сухое молоко',
+	species: 'Молочные продукты',
+	caloric_content: 469.2,
+	proteins: 24.2,
+    fats: 25,
+    carbs: 39.3,
+    price: 218
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'd0b90e45-b382-9c6a-f127-c6423dcd000d',
+	title: 'Сухие сливки',
+	species: 'Молочные продукты',
+	caloric_content: 567.3,
+	proteins: 19,
+    fats: 42,
+    carbs: 30.2,
+    price: 291
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'db069fe9-649b-2058-011b-862ef60dd045',
+	title: 'Пахта',
+	species: 'Молочные продукты',
+	caloric_content: 62.5,
+	proteins: 3,
+    fats: 3.6,
+    carbs: 4.8,
+    price: 38
+})
+
+var pro = new models.Product
+pro.save({
+	id: '4a6027d8-f1e4-1ca9-5de0-9d8e8b4be721',
+	title: 'Кумыс',
+	species: 'Молочные продукты',
+	caloric_content: 50,
+	proteins: 2.1,
+    fats: 1.9,
+    carbs: 5,
+    price: 180
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'a46f36e7-a14f-4fde-3357-402db264452e',
+	title: 'Ряженка',
+	species: 'Молочные продукты',
+	caloric_content: 54,
+	proteins: 2.9,
+    fats: 2.5,
+    carbs: 4.2,
+    price: 44
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a2cc2426-81cf-ecfa-4f65-325ed2ae9983',
+	title: 'Айран',
+	species: 'Молочные продукты',
+	caloric_content: 24,
+	proteins: 1.1,
+    fats: 1.5,
+    carbs: 1.4,
+    price: 180
+})
+
+var pro = new models.Product
+pro.save({
+	id: '99c8fc86-6d84-b65c-be7e-d8c264a1ca9f',
+	title: 'Сыр пошехонский',
+	species: 'Молочные продукты',
+	caloric_content: 344,
+	proteins: 26,
+    fats: 26.1,
+    carbs: 0,
+    price: 255
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'be652d52-a23d-264a-94ae-a5b352fe31d8',
+	title: 'Творожная масса',
+	species: 'Молочные продукты',
+	caloric_content: 232.1,
+	proteins: 12,
+    fats: 16.5,
+    carbs: 9.5,
+    price: 63
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6512f407-a027-5bd7-ef0c-41294de6d8f0',
+	title: 'Простокваша',
+	species: 'Молочные продукты',
+	caloric_content: 59,
+	proteins: 2.9,
+    fats: 3.2,
+    carbs: 4.1,
+    price: 40 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'e321008d-cb76-11dd-011a-bdddd411e5c8',
+	title: 'Йогурт натуральный',
+	species: 'Молочные продукты',
+	caloric_content: 68,
+	proteins: 5,
+    fats: 3.2,
+    carbs: 3.5,
+    price: 180
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '3f9ee591-9cb5-6b9c-8abc-0bdd738283b9',
+	title: 'Сыр тофу',
+	species: 'Молочные продукты',
+	caloric_content: 76,
+	proteins: 8.08,
+    fats: 4.78,
+    carbs: 1.88,
+    price: 263 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '7f16974e-764f-bf24-d41a-0f527fd5edc1',
+	title: 'Мацони',
+	species: 'Молочные продукты',
+	caloric_content: 65.3,
+	proteins: 2.9,
+    fats: 3.8,
+    carbs: 4.7,
+    price: 140
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'eeef7db8-0cbe-f699-10b0-7f77ee0f0dc7',
+	title: 'Молочная сыворотка',
+	species: 'Молочные продукты',
+	caloric_content: 18.1,
+	proteins: 0.8,
+    fats: 0.2,
+    carbs: 3.5,
+    price: 60
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '528d49f8-ac2b-1d51-33f1-226de9b97543',
+	title: 'Тан',
+	species: 'Молочные продукты',
+	caloric_content: 24,
+	proteins: 1.1,
+    fats: 1.5,
+    carbs: 1.4,
+    price: 180
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'c35adee2-2d0a-50a6-d6b4-0df04f83f224',
+	title: 'Зеленый сыр песто',
+	species: 'Молочные продукты',
+	caloric_content: 380,
+	proteins: 23,
+    fats: 32,
+    carbs: 0,
+    price: 1300
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '11d1366b-0921-abb0-8a1c-aaf884085ff2',
+	title: 'Творожный сыр',
+	species: 'Молочные продукты',
+	caloric_content: 317,
+	proteins: 7,
+    fats: 31,
+    carbs: 2.5,
+    price: 64
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'f2704730-1740-a31c-53cd-53a04663f7d6',
+	title: 'Сыр гауда',
+	species: 'Молочные продукты',
+	caloric_content: 356,
+	proteins: 24.94,
+    fats: 27.44,
+    carbs: 2.22,
+    price: 70
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'd16b67f4-d453-b7ec-62b4-457e6fd316bb',
+	title: 'Копченый сыр',
+	species: 'Молочные продукты',
+	caloric_content: 380,
+	proteins:23.5,
+    fats: 30.8,
+    carbs: 0,
+    price: 220
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'c2e5b3f3-14e4-8270-4fd3-ae7f5ea166fe',
+	title: 'Копченый сыр косичка',
+	species: 'Молочные продукты',
+	caloric_content: 320,
+	proteins: 19.5,
+    fats: 26,
+    carbs: 2.2,
+    price: 230 
+})
+
+//================================================================================================================
+//================================================================================================================
+//ЯЙЦА
+//================================================================================================================
+//================================================================================================================
+
+var pro = new models.Product
+pro.save({
+	id: 'f236e787-fc40-c923-e2d6-6bf398e07570',
+	title: 'Куриное яйцо',
+	species: 'Яйца',
+	caloric_content: 157,
+	proteins: 12.7,
+    fats: 11.5,
+    carbs: 0.7,
+    price: 4.5
+})
+
+var pro = new models.Product
+pro.save({
+	id: '5661f3bf-2f8b-6992-874a-e98f6a393998',
+	title: 'Перепелиные яйца',
+	species: 'Яйца',
+	caloric_content: 168,
+	proteins: 11.9,
+    fats: 13.1,
+    carbs: 0.6,
+    price: 5.5
+})
+
+var pro = new models.Product
+pro.save({
+	id: '303d6c08-f47e-d65a-355c-68e10b29cecc',
+	title: 'Яичный белок',
+	species: 'Яйца',
+	caloric_content: 44.4,
+	proteins: 11.1,
+    fats: 0,
+    carbs: 0,
+    price: 4.5
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'eb0830ef-bbdf-2b15-6083-b2a70e6df5f7',
+	title: 'Яичный желток',
+	species: 'Яйца',
+	caloric_content: 358,
+	proteins: 16.2,
+    fats: 30.87,
+    carbs: 1.78,
+    price: 4.5
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2df5108a-3de1-cc06-f04e-cf3a24298806',
+	title: 'Страусиные яйца',
+	species: 'Яйца',
+	caloric_content: 120,
+	proteins: 15.2,
+    fats: 31.3,
+    carbs: 0,
+    price: 1550
+})
+
+//================================================================================================================
+//================================================================================================================
+//МЯСНЫЕ ПРОДУКТЫ
+//================================================================================================================
+//================================================================================================================
+
+
+
+var pro = new models.Product
+pro.save({
+	id: 'b94e6dcb-2824-c17e-9fc7-3bd5cdbed3fe',
+	title: 'Свиная вырезка',
+	species: 'Мясные продукты',
+	caloric_content: 142,
+	proteins: 19.4,
+    fats: 7.1,
+    carbs: 0,
+    price: 260
+})
+
+var pro = new models.Product
+pro.save({
+	id: '44ca4d5d-184a-0b52-a3c8-57809b574dfe',
+	title: 'Свиная грудинка',
+	species: 'Мясные продукты',
+	caloric_content: 518,
+	proteins: 9.34,
+    fats: 53.01,
+    carbs: 0,
+    price: 189
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'dee4658b-e74c-0246-6983-284c8e3ccc97',
+	title: 'Оленина',
+	species: 'Мясные продукты',
+	caloric_content: 155,
+	proteins: 19.5,
+    fats: 8.5,
+    carbs: 0,
+    price: 1000
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1cda7616-11a3-e72d-db0f-e5d97bec0f4a',
+	title: 'Баранина',
+	species: 'Мясные продукты',
+	caloric_content: 209,
+	proteins: 15.6,
+    fats: 16.3,
+    carbs: 0,
+    price: 248
+})
+
+var pro = new models.Product
+pro.save({
+	id: '08865732-511a-6ff2-d08f-4a1a20524d72',
+	title: 'Конина',
+	species: 'Мясные продукты',
+	caloric_content: 167.1,
+	proteins: 19.5,
+    fats: 9.9,
+    carbs: 0,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: '5424482d-c38b-db47-c084-3505565911d1',
+	title: 'Цыпленок',
+	species: 'Мясные продукты',
+	caloric_content: 183,
+	proteins: 17.6,
+    fats: 12.3,
+    carbs: 0.4,
+    price: 115
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ab958233-1855-e3d9-2a67-8855a359874a',
+	title: 'Свинина',
+	species: 'Мясные продукты',
+	caloric_content: 263,
+	proteins: 16.88,
+    fats: 21.19,
+    carbs: 0,
+    price: 148
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2f3650be-8866-47c9-5b47-09168746f887',
+	title: 'Говядина',
+	species: 'Мясные продукты',
+	caloric_content: 198,
+	proteins: 17,
+    fats: 1.4,
+    carbs: 0,
+    price: 300
+})
+
+var pro = new models.Product
+pro.save({
+	id: '3d954d26-72e2-a014-7a65-79c53db315f0',
+	title: 'Мясо гуся',
+	species: 'Мясные продукты',
+	caloric_content: 412,
+	proteins: 15.2,
+    fats: 39,
+    carbs: 0,
+    price: 270
+})
+
+var pro = new models.Product
+pro.save({
+	id: '62623b40-074e-418c-ef2e-f06995cac649',
+	title: 'Мясо кролика',
+	species: 'Мясные продукты',
+	caloric_content: 183,
+	proteins: 21.2,
+    fats: 11,
+    carbs: 0,
+    price: 310
+})
+
+var pro = new models.Product
+pro.save({
+	id: '3baad502-a63f-6dfb-6153-590d9378eb2b',
+	title: 'Куриная грудка',
+	species: 'Мясные продукты',
+	caloric_content: 113,
+	proteins: 23.6,
+    fats: 1.9,
+    carbs: 0.4,
+    price: 135
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ad2052b8-9d8b-8e5c-5c80-d39931791dc7',
+	title: 'Сосиски свиные',
+	species: 'Мясные продукты',
+	caloric_content: 324.4,
+	proteins: 11.8,
+    fats: 30.8,
+    carbs: 0,
+    price: 197 
+})
+
+var pro = new models.Product
+pro.save({
+	id: '51adaa31-e60b-82ef-16f4-9afca6f981a6',
+	title: 'Мясо индейки',
+	species: 'Мясные продукты',
+	caloric_content: 276,
+	proteins: 19.5,
+    fats: 22,
+    carbs: 0,
+    price: 227
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7f3e40f8-379a-9216-15af-b38286780589',
+	title: 'Фарш из мяса индейки',
+	species: 'Мясные продукты',
+	caloric_content: 194,
+	proteins: 21.6,
+    fats: 12,
+    carbs: 0,
+    price: 190
+})
+
+var pro = new models.Product
+pro.save({
+	id: '4f402f93-8894-ca98-7b8d-a2b6467f716b',
+	title: 'Куриный бульон',
+	species: 'Мясные продукты',
+	caloric_content: 50.7,
+	proteins: 4.3,
+    fats: 3.6,
+    carbs: 0.4
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '7a351c69-288d-271f-ac98-77e6166fa634',
+	title: 'Бекон',
+	species: 'Мясные продукты',
+	caloric_content: 541,
+	proteins: 37.04,
+    fats: 41.78,
+    carbs: 1.43,
+    price: 280 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '80e455aa-37fb-388d-f76e-809cdc1ff989',
+	title: 'Ветчина',
+	species: 'Мясные продукты',
+	caloric_content: 278.5,
+	proteins: 22.6,
+    fats: 20.9,
+    carbs: 0,
+    price: 310
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'c1ebfd42-9662-ba37-3266-e42056cb2f88',
+	title: 'Колбаса салями',
+	species: 'Мясные продукты',
+	caloric_content: 566,
+	proteins: 13,
+    fats: 5.7,
+    carbs: 0.2,
+    price: 415
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '322332c3-d01b-a564-4ac7-62afb67e4832',
+	title: 'Говяжья грудинка',
+	species: 'Мясные продукты',
+	caloric_content: 224.6,
+	proteins: 17,
+    fats: 17.4,
+    carbs: 0,
+    price: 390
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '43d882d0-f76b-bf2d-331f-2d0f977ec19e',
+	title: 'Говяжья вырезка',
+	species: 'Мясные продукты',
+	caloric_content: 218.4,
+	proteins: 18.6,
+    fats: 16,
+    carbs: 0,
+    price: 490
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '2e0d2666-8a44-713f-3695-a42234474299',
+	title: 'Вареная колбаса',
+	species: 'Мясные продукты',
+	caloric_content: 257,
+	proteins: 12.8,
+    fats: 22.2,
+    carbs: 1.5,
+    price: 178
+})
+
+var pro = new models.Product
+pro.save({
+	id: '322f01df-d832-d3ee-95f0-fd83bb9acdbf',
+	title: 'Куриная печень',
+	species: 'Мясные продукты',
+	caloric_content: 137.6,
+	proteins: 20.4,
+    fats: 5.9,
+    carbs: 0.73,
+    price: 68
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '1b4c817b-374f-851f-8754-975a308cc2a5',
+	title: 'Гусиная печень',
+	species: 'Мясные продукты',
+	caloric_content: 411.8,
+	proteins: 15.2,
+    fats: 39,
+    carbs: 0,
+    price: 120
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: '9b865122-cfde-880c-88ac-29487b04d197',
+	title: 'Курица',
+	species: 'Мясные продукты',
+	caloric_content: 238,
+	proteins: 18.2,
+    fats: 18.4,
+    carbs: 0,
+    price: 75 
+})
+
+
+var pro = new models.Product
+pro.save({
+	id: 'b3b046e6-758f-07f5-9ab2-a15aa08e0ea9',
+	title: 'Мясо',
+	species: 'Мясные продукты',
+	caloric_content: 218,
+	proteins: 18.6,
+    fats: 16,
+    carbs: 0,
+    price: 205
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2ebb95f2-345b-6728-91af-356437879be1',
+	title: 'Сосиски молочные',
+	species: 'Мясные продукты',
+	caloric_content: 261,
+	proteins: 11,
+    fats: 23.9,
+    carbs: 0.4,
+    price: 170
+})
+
+var pro = new models.Product
+pro.save({
+	id: '18959963-0886-3652-1fea-d74756445242',
+	title: 'Свиной фарш',
+	species: 'Мясные продукты',
+	caloric_content: 221,
+	proteins: 15.41,
+    fats: 17.18,
+    carbs: 0,
+    price: 215
+})
+
+var pro = new models.Product
+pro.save({
+	id: '09b115b9-92f9-21b6-4541-c6a7a237aaf3',
+	title: 'Говяжий фарш',
+	species: 'Мясные продукты',
+	caloric_content: 293,
+	proteins: 15.76,
+    fats: 25,
+    carbs: 0,
+    price: 240 
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'bacb1123-d895-cbf0-1122-1914829b2a97',
+	title: 'Окорочка куриные',
+	species: 'Мясные продукты',
+	caloric_content: 184.6,
+	proteins: 21.3,
+    fats: 11,
+    carbs: 0.1,
+    price: 102
+})
+
+var pro = new models.Product
+pro.save({
+	id: '99df8eae-d928-aa6c-1fc7-3566a6870734',
+	title: 'Куриные сердечки',
+	species: 'Мясные продукты',
+	caloric_content: 158.9,
+	proteins: 15.8,
+    fats: 10.3,
+    carbs: 0.8,
+    price: 110
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6d2800a3-cce8-1866-0f55-7adbd8b999d3',
+	title: 'Мясо утки',
+	species: 'Мясные продукты',
+	caloric_content: 405,
+	proteins: 18.5,
+    fats: 38,
+    carbs: 0,
+    price: 291
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'd7f1088b-1de5-b577-e05b-8e64dfb3e78b',
+	title: 'Куриные желудочки',
+	species: 'Мясные продукты',
+	caloric_content: 94,
+	proteins: 17.66,
+    fats: 2.06,
+    carbs: 0,
+    price: 86
+})
+
+var pro = new models.Product
+pro.save({
+	id: '9182620f-276c-f399-9be7-eda1582fd478',
+	title: 'Буженина',
+	species: 'Мясные продукты',
+	caloric_content: 510,
+	proteins: 15,
+    fats: 50,
+    carbs: 0,
+    price: 380
+})
+
+var pro = new models.Product
+pro.save({
+	id: '6f9d3020-1790-4a62-ca7c-d12006d3fc0b',
+	title: 'Куриные ножки',
+	species: 'Мясные продукты',
+	caloric_content: 161,
+	proteins: 19.27,
+    fats: 8.68,
+    carbs: 0,
+    price: 98
+})
+
+var pro = new models.Product
+pro.save({
+	id: '1c9f13d6-6929-8028-c792-cd9b15008db9',
+	title: 'Куриный фарш',
+	species: 'Мясные продукты',
+	caloric_content: 143,
+	proteins: 17.44,
+    fats: 8.1,
+    carbs: 0.04,
+    price: 185
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'aba608f8-1675-4566-6217-ac9d7c0115fe',
+	title: 'Куриные крылышки',
+	species: 'Мясные продукты',
+	caloric_content: 222,
+	proteins: 18.83,
+    fats: 15.97,
+    carbs: 0,
+    price: 89
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c622266b-d22f-d3d6-663e-b505966a0af7',
+	title: 'Свиной язык',
+	species: 'Мясные продукты',
+	caloric_content: 208,
+	proteins: 15.9,
+    fats: 16,
+    carbs: 2.1,
+    price: 182
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c0b198d6-7be6-5f63-10fe-a39f0e3a603a',
+	title: 'Говяжий язык',
+	species: 'Мясные продукты',
+	caloric_content: 173,
+	proteins: 16,
+    fats: 12.1,
+    carbs: 2.2,
+    price: 270
+})
+
+var pro = new models.Product
+pro.save({
+	id: '9d7f5d42-7e16-f60e-ce05-0f8692c58e71',
+	title: 'Колбаса сервелат',
+	species: 'Мясные продукты',
+	caloric_content: 461,
+	proteins: 24,
+    fats: 40.5,
+    carbs: 0.2,
+    price: 640
+})
+
+var pro = new models.Product
+pro.save({
+	id: '7bd445d4-5f90-d558-3fc4-796015f1612e',
+	title: 'Сардельки свиные',
+	species: 'Мясные продукты',
+	caloric_content: 322,
+	proteins: 10.1,
+    fats: 31.6,
+    carbs: 1.8,
+    price: 219
+})
+
+var pro = new models.Product
+pro.save({
+	id: '132c0405-29f2-15a9-ea33-f2d71a1b876e',
+	title: 'Свиная корейка',
+	species: 'Мясные продукты',
+	caloric_content: 384,
+	proteins: 13.7,
+    fats: 36.5,
+    carbs: 0,
+    price: 210
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'b95dc507-00ab-4420-4ca1-d08e63f3af79',
+	title: 'Шпик свиной',
+	species: 'Мясные продукты',
+	caloric_content: 840.8,
+	proteins: 1.4,
+    fats: 92.8,
+    carbs: 0,
+    price: 56
+})
+
+var pro = new models.Product
+pro.save({
+	id: '0720a688-7736-6175-6b6e-23b3deb51514',
+	title: 'Говяжьи почки',
+	species: 'Мясные продукты',
+	caloric_content: 86,
+	proteins: 15.2,
+    fats: 2.8,
+    carbs: 1.9,
+    price: 25
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'deb3e1a2-7f6b-e7c8-ae4e-38a86a1e7adc',
+	title: 'Охотничьи колбаски',
+	species: 'Мясные продукты',
+	caloric_content: 463,
+	proteins: 25.3,
+    fats: 40,
+    carbs: 0.3,
+    price: 309
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'bc837ceb-a077-4d3d-33e3-a7e126a7ba06',
+	title: 'Мясной бульон',
+	species: 'Мясные продукты',
+	caloric_content: 54.1,
+	proteins: 7.4,
+    fats: 2.6,
+    carbs: 0.2
+})
+
+var pro = new models.Product
+pro.save({
+	id: '224db7ea-6cc7-37fe-8034-cb08c57e575f',
+	title: 'Свиные ребрышки',
+	species: 'Мясные продукты',
+	caloric_content: 277,
+	proteins: 15.47,
+    fats: 23.4,
+    carbs: 0,
+    price: 160
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'ffff9412-7523-3c43-ea73-7c9dc3dd43e5',
+	title: 'Мясо перепела',
+	species: 'Мясные продукты',
+	caloric_content: 134,
+	proteins: 21.76,
+    fats: 4.53,
+    carbs: 0,
+    price: 285
+})
+
+var pro = new models.Product
+pro.save({
+	id: '15de94d5-27ab-56e9-34a9-8034352c956f',
+	title: 'Свиной окорок',
+	species: 'Мясные продукты',
+	caloric_content: 332.7,
+	proteins: 15,
+    fats: 30.3,
+    carbs: 0,
+    price: 235
+})
+
+var pro = new models.Product
+pro.save({
+	id: '08bbd89d-87b5-7302-0dc4-b355d485171b',
+	title: 'Грудинка копченая',
+	species: 'Мясные продукты',
+	caloric_content: 494,
+	proteins: 10,
+    fats: 52.7,
+    carbs: 33.8,
+    price: 310
+})
+
+var pro = new models.Product
+pro.save({
+	id: '2046b124-7ff2-6669-b2f2-52b79f2d8bf9',
+	title: 'Копченая курица',
+	species: 'Мясные продукты',
+	caloric_content: 184,
+	proteins: 27.48,
+    fats: 8.18,
+    carbs: 0.02,
+    price: 246
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'd6952082-1e2c-abbc-bea7-af6898826aa7',
+	title: 'Говяжья печень',
+	species: 'Мясные продукты',
+	caloric_content: 127,
+	proteins: 17.9,
+    fats: 3.7,
+    carbs: 5.3,
+    price: 69
+})
+
+var pro = new models.Product
+pro.save({
+	id: '39be9336-6368-ee8c-f228-5babd3199297',
+	title: 'Свиная печень',
+	species: 'Мясные продукты',
+	caloric_content: 109,
+	proteins: 18.8,
+    fats: 3.8,
+    carbs: 4.7,
+    price: 60
+})
+
+var pro = new models.Product
+pro.save({
+	id: '867bc0a6-6e65-61ec-f04a-c9a7e30ff779',
+	title: 'Сальтисон',
+	species: 'Мясные продукты',
+	caloric_content: 209,
+	proteins: 13,
+    fats: 17,
+    carbs:0,
+    price: 140
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c77d379a-ed22-2c54-601e-9b92d597cf86',
+	title: 'Балык свиной',
+	species: 'Мясные продукты',
+	caloric_content: 286
+,
+	proteins: 15.4,
+    fats: 24.9,
+    carbs: 0,
+    price: 380
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'fff580b9-e2a6-431f-6659-4f9d38cd2f82',
+	title: 'Телятина',
+	species: 'Мясные продукты',
+	caloric_content: 96.8,
+	proteins: 19.7,
+    fats: 2,
+    carbs: 0,
+    price: 392
+})
+
+var pro = new models.Product
+pro.save({
+	id: '126c0e03-f3be-1b5d-37aa-450d05b10af4',
+	title: 'Кровяная колбаса',
+	species: 'Мясные продукты',
+	caloric_content: 379,
+	proteins: 58.4,
+    fats: 31.05,
+    carbs: 5.16,
+    price: 486
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'c8615283-5af8-16fc-ee91-2fe70efbda8c',
+	title: 'Лягушачьи лапки',
+	species: 'Мясные продукты',
+	caloric_content: 73,
+	proteins: 16.4,
+    fats: 0.3,
+    carbs: 0,
+    price: 400
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'f9135ddb-34ec-b39e-997e-f6af486d9393',
+	title: 'Ноги свиные',
+	species: 'Мясные продукты',
+	caloric_content: 216,
+	proteins: 18,
+    fats: 16,
+    carbs: 0,
+    price: 35
+})
+
+var pro = new models.Product
+pro.save({
+	id: 'a34dc6cf-bfe6-a8d3-d93b-e5e5c21df466',
+	title: 'Ливерная колбаса',
+	species: 'Мясные продукты',
+	caloric_content: 326,
+	proteins: 14,
+    fats: 28.5,
+    carbs: 2.2,
+    price: 240
+})
+
+var pro = new models.Product
+pro.save({
+	id: '253d03e2-d7cd-4028-0a1c-f80ec8e61519',
+	title: 'Субпродукты',
+	species: 'Мясные продукты',
+	caloric_content: 241,
+	proteins: 18.2,
+    fats: 18.4,
+    carbs: 0.7,
+    price: 42
+})
+
+
+
+
+
+
+
+
+
+
+
+

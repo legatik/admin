@@ -1,0 +1,27 @@
+<div>Hello, <%= name %></div>
+<% if (reg) {%><br>
+
+<div class="navbar">
+	<a class="navbar-brand" href="/logout" title="">Выход</a>
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="/">Home</a></li>
+		<li><a href="/admin">Добавить продукт</a></li>
+		<li><a href="/adminAddDishes">Добавить блюдо </a></li>
+		<li><a href="/adminDishesList">Список блюд</a></li>
+		<li><a href="/adminProductsList">Обязательные продукты</a></li>
+		<li><a href="/adminProductsListNoness">Необязательные продукты</a></li>
+	</ul>
+</div>
+
+
+<%}  else {%>
+
+<div class="navbar">
+	<ul class="nav navbar-nav">
+		<a href="/login" title="">Вход</a>
+		<a href="/register" title="">Регистрация</a>
+	</ul>
+</div>
+
+<% } %>
+

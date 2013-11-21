@@ -1,0 +1,180 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+
+    width: 760px;
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 0px;
+	height: 0;
+
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 99.7%;
+	height: 13px;
+	background: #151515;
+	border: 1px solid #0B0B0B;
+	border-radius:4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+
+	position: relative;
+
+}
+
+.jspDrag
+{
+	//background: #343434;
+	height:100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+
+.jspDragLeft {
+    float:left;
+    margin-top:4px;
+    margin-left:5px;
+
+    overflow: hidden;
+    background: #343434;
+    height:3px;
+    width:98%;
+    border: 1px solid #343434;
+    border-radius:3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+/*.jspDragRight {
+    margin-top:4px;
+    float: right;
+    overflow: hidden;
+    background: #343434;
+    height:4px;
+    width:50%;
+    border: 1px solid #343434;
+    border-radius:2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}*/
+
+
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 0px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+/*	background: #eeeef4;*/
+/*	float: left;*/
+/*	height: 100%;*/
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+
+/* Styles specific to this particular page */
+.scroll-pane
+{
+    margin-left:42px;
+    margin-right:210px;
+    margin-top:4px;
+    width: auto;
+	height: 300px;
+	overflow: auto;
+	position:relative;
+    z-index:4;
+
+}
+.horizontal-only
+{
+	height: auto;
+	max-height: 300px;
+}
+

@@ -1,0 +1,21 @@
+<td><input class="cb-select-item" type="checkbox"></td>
+<td><div class="title"><%= title %></div></td>
+<!--<td><%= id %></td>-->
+<td class="date-adding"></td>
+<!--<td><%= rating %></td>-->
+<td><%= who_added %></td>
+<td><a href="javascript:void(0)" class="showRecipe">Рецепт</a></td>
+<td>
+    <div class="icon add-approved" /><div class="icon remove-approved" /><div class=" icon add-question" />
+     <% if (role=="super_admin") {%>
+    <div class=" icon delete-dish" />
+    <% }%>
+
+
+
+<!--    <% if (status=="approved") { %><div class="icon remove-approved" /><div class=" icon add-question" />-->
+<!--    <% } else if (status=="not_approved") {%><div class="icon add-approved" /><div class="icon add-question" />-->
+<!--    <% } else {%><div class="icon remove-approved" /><div class="icon add-approved" /><%}%>-->
+
+</td>
+

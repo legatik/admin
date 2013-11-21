@@ -1,0 +1,20 @@
+<div id="admin-content">
+    <a href="/adminProductsListNoness">Необязательные продукты </a>
+    <a href="/adminProductsList">Обязательные продукты</a><br />
+
+	<span>НАЗВАНИЕ </span> <input class="title"/><br />
+    <span>КАТЕГОРИЯ </span> <select class="species">
+            <option>Фрукты</option>
+            <option>Овощи</option>
+            <option>Рыба и морепродукты</option>
+            <option>Мясные продукты</option>
+            <option>Яйца и молочные продукты</option>
+            <option>Мука и мучные изделия</option>
+            <option>Добавки и витамины</option></select><br />
+    <select class="ness">
+            <option>Обязательно</option>
+            <option>Необязательно</option>
+   </select><br />
+	<button class="addProduct">ДОБАВИТЬ ПРОДУКТ</ button>
+</div>
+
