@@ -66,11 +66,18 @@
                 </tr>                               
                 <tr class="odd">
                     <td>Картинка главная</td>
-                    <td><input type="file" id="title-picture"/><div class="error picture-title-error hide">    укажите картинку</div></td>
+                    <td>
+                      <input type="file" id="title-picture" style="display:inline-block"/>
+                      <button id="cancelTitle">X</button>
+                      <div class="error picture-title-error hide">    укажите картинку</div>
+                    </td>
                 </tr>
                <tr>
                     <td>Картинки шагов приготовлениея</td>
-                    <td><input type="file" id="step-pictures"/></td>
+                    <td>
+                      <input type="file" id="step-pictures" style="display:inline-block"/>
+                      <button id="cancelStep">X</button>
+                    </td>
                </tr>   
             </tbody>
     </table>

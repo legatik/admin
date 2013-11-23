@@ -44,8 +44,20 @@ view = views.Main.extend({
         'click #addStep' : 'addStepRec',
         'click #delStepRec' : 'delStepRec',
         'change #title-picture':"changeTitlePic",
-        'change #step-pictures':"changeStepPics"
+        'change #step-pictures':"changeStepPics",
+        'click #cancelTitle' : "cancelTitlePic",
+        'click #cancelTitle' : "cancelStepPics"
+        
 	},
+
+    cancelStepPics:function(){
+      alert('scancelStepPics')
+    },
+
+    cancelTitlePic:function(){
+      alert("cancelTitlePic")
+    
+    },
 
     changeStepPics:function(e){
         this.fileStep.push(e.target.files[0])
@@ -94,6 +106,7 @@ view = views.Main.extend({
 
 	addDish: function() {
 	    var error=false
+	    var self = this
 //	    $('.ing', this.el).each(function(index, one) {
 //	        console.log('eeee',arguments);
 //	        if ($(one).hasClass('clear')&&!$(one).hasClass('first')) {
@@ -196,18 +209,15 @@ view = views.Main.extend({
 	        }
 	        
 	        
-	        filedata = ["TEAR"]
  	        
 	        
 	        var newForm = new FormData()
-	        
-	        console.log("newForm",newForm)
-	        
-	        
-	        console.log("this.fileStep",this.fileStep)
-	        
 	        newForm.append("title",this.fileTitle)
-	        newForm.append("p1",this.fileStep[0])
+	        
+	        this.fileStep.forEach(function(file,index){
+  	        newForm.append("p"+index,file)
+	        })
+	        
 	        newForm.append("id",id)
 	        
 	        
@@ -220,6 +230,7 @@ view = views.Main.extend({
 				    processData: false,
 				    type: 'POST',
 				    success: function(status){
+				      self.fileStep = []
 				      console.log("status",status)
 				    }
 			    });
