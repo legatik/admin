@@ -49,7 +49,6 @@ view = views.Main.extend({
 
     changeStepPics:function(e){
         this.fileStep.push(e.target.files[0])
-        console.log("this.fileStep",this.fileStep)
         
     },
     
@@ -168,9 +167,14 @@ view = views.Main.extend({
 	        $('.kremling-diet-error', this.el).removeClass('hide')
 	        error=true
 	    }
-
-
-        console.log("error",error)
+    
+      
+      if(!this.fileTitle){
+        error = true
+        $(".picture-title-error",this.el).removeClass('hide')
+      }
+      
+      console.log("error",error)
 	    if (!error) {
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
@@ -190,9 +194,39 @@ view = views.Main.extend({
 	            complexity: $('.complexity',this.el).val(),
 	            kremling_diet: $('.kremling-diet',this.el).val()
 	        }
+	        
+	        
+	        filedata = ["TEAR"]
+ 	        
+	        
+	        var newForm = new FormData()
+	        
+	        console.log("newForm",newForm)
+	        
+	        
+	        console.log("this.fileStep",this.fileStep)
+	        
+	        newForm.append("title",this.fileTitle)
+	        newForm.append("p1",this.fileStep[0])
+	        newForm.append("id",id)
+	        
+	        
+	            
+			    $.ajax({
+				    url: "/savePucture",
+				    data: newForm,
+				    cache: false,
+				    contentType: false,
+				    processData: false,
+				    type: 'POST',
+				    success: function(status){
+				      console.log("status",status)
+				    }
+			    });
+			    
+	        
           console.log("data",data)
-          console.log("this.fileTitle",this.fileTitle)
-          console.log("this.fileStep",this.fileStep)
+
 //	        dish.save({
 //	            id: id,
 //	            title: $('.title',this.el).val(),

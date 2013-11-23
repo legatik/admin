@@ -30,8 +30,7 @@ servers.Middleware.augment({
         this.use(new servers.Register(app));
         this.use(new servers.checkUser(app));
         this.use(new servers.PassportLocal(app));
-
-
+        this.use(new servers.SavePictures(app));
     }
 });
 

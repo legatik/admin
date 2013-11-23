@@ -11,7 +11,8 @@
         "f_underscore": "0.1.0",
         "socket.io" : "0.9.16",
         "redis" : "0.8.4",
-        "crypto": "0.0.3"
+        "crypto": "0.0.3",
+        "underscore": "1.5.2"
     },
     "devDependencies": {}
 }

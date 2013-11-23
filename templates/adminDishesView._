@@ -52,7 +52,7 @@
                     <td id="rec-area-cont"> 
                       <div class="item-recipe first">
                         <div>Шаг 1</div>
-                        <textarea class="recipe"/>
+                        <textarea  class="recipe">value</textarea>
                       </div>
                     </td>
                 </tr>
@@ -66,11 +66,11 @@
                 </tr>                               
                 <tr class="odd">
                     <td>Картинка главная</td>
-                    <td><input type="file" id="title-picture"/><div class="error recipe-error hide">    укажите картинку</div></td>
+                    <td><input type="file" id="title-picture"/><div class="error picture-title-error hide">    укажите картинку</div></td>
                 </tr>
                <tr>
                     <td>Картинки шагов приготовлениея</td>
-                    <td><input type="file" id="step-pictures"/><div class="error recipe-error hide">    укажите картинки</div></td>
+                    <td><input type="file" id="step-pictures"/></td>
                </tr>   
             </tbody>
     </table>
