@@ -46,16 +46,26 @@ view = views.Main.extend({
         'change #title-picture':"changeTitlePic",
         'change #step-pictures':"changeStepPics",
         'click #cancelTitle' : "cancelTitlePic",
-        'click #cancelTitle' : "cancelStepPics"
+        'click #cancelStep' : "cancelStepPics"
         
 	},
 
     cancelStepPics:function(){
-      alert('scancelStepPics')
+      var confirm = window.confirm("Вы уверенны что хотите отменить загруженне файлы?")
+      if(confirm){
+        $("#step-pictures",this.el).val("")
+        this.fileStep = []
+        console.log("this.fileStep",this.fileStep)
+      }
     },
 
     cancelTitlePic:function(){
-      alert("cancelTitlePic")
+      var confirm = window.confirm("Вы уверенны что хотите отменить загруженный файл?")
+      if(confirm){
+        $("#title-picture",this.el).val("")
+        $("#title-picture").val("")
+        this.fileTitle = false
+      }
     
     },
 
@@ -191,21 +201,22 @@ view = views.Main.extend({
 	    if (!error) {
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
-	        data = {
-	            id: id,
-	            title: $('.title',this.el).val(),
-	            composition: mas,
-	            recipe: recipe,
-	            species: $('.category',this.el).val(),
-	            time_cooking: $('.time',this.el).val()*1,
-	            status: 'in_question',
-	            dateAdding: new Date(),
-	            who_added: this.user.id,
-	            comments:[],
-	            kitchen: $('.kitchen',this.el).val(),
-	            serving: $('.serving',this.el).val(),
-	            complexity: $('.complexity',this.el).val(),
-	            kremling_diet: $('.kremling-diet',this.el).val()
+	        var data = {
+	              id: id,
+	              title: $('.title',this.el).val(),
+	              composition: mas,
+	              recipe: recipe,
+	              species: $('.category',this.el).val(),
+	              time_cooking: $('.time',this.el).val()*1,
+	              status: 'in_question',
+	              dateAdding: new Date(),
+	              who_added: this.user.id,
+	              comments:[],
+	              kitchen: $('.kitchen',this.el).val(),
+	              serving: $('.serving',this.el).val(),
+	              complexity: $('.complexity',this.el).val(),
+	              kremling_diet: $('.kremling-diet',this.el).val(),
+	              cost: $("#cost",this.el).val()
 	        }
 	        
 	        
@@ -214,9 +225,15 @@ view = views.Main.extend({
 	        var newForm = new FormData()
 	        newForm.append("title",this.fileTitle)
 	        
+	        console.log("this.fileStep",this.fileStep)
+	        
 	        this.fileStep.forEach(function(file,index){
+	          console.log("index",index)
+	          console.log("file")
   	        newForm.append("p"+index,file)
 	        })
+	        
+	        
 	        
 	        newForm.append("id",id)
 	        
@@ -232,26 +249,13 @@ view = views.Main.extend({
 				    success: function(status){
 				      self.fileStep = []
 				      console.log("status",status)
+				      dish.save(data)
 				    }
 			    });
 			    
 	        
-          console.log("data",data)
 
-//	        dish.save({
-//	            id: id,
-//	            title: $('.title',this.el).val(),
-//	            composition: mas,
-//	            recipe: $('.recipe',this.el).val(),
-//	            species: $('.category',this.el).val(),
-//	            time_cooking: $('.time',this.el).val()*1,
-//	            status: 'in_question',
-//	            method_cooking: $('.method-cooking',this.el).val(),
-//	            dateAdding: new Date(),
-//	            who_added: this.user.email,
-//	            ing_list: m2,
-//	            arr_comments:[]
-//	        })
+
 	        $('.success',this.el).removeClass('hide')
 	        $('input').val('')
 	        $('textarea').val('')

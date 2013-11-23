@@ -46,7 +46,17 @@
                 <tr>
                     <td>Ингридиенты</td>
                     <td class='inglist'><input value="1" class="first ing clear"/><div class="error ing-error hide"></div><input value="1"  class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
-                </tr>                 
+                </tr>               
+                <tr>
+                    <td>Стоимость</td>
+                    <td class='inglist'>
+                         <select id="cost">
+                            <option select>Низкая</option>
+                            <option>Средняя</option> 
+                            <option>Высокая</option>
+                        </select>
+                    </td>
+                </tr>   
                 <tr class="odd">
                     <td>Рецепт</td>
                     <td id="rec-area-cont"> 
