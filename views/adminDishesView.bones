@@ -108,7 +108,7 @@ view = views.Main.extend({
 
     addStepRec:function(e){
       var arrRecipe = $("#rec-area-cont").find(".recipe")
-      $("#rec-area-cont").append('<div class="item-recipe"><div>Шаг'+(arrRecipe.length+1)+'</div><textarea class="recipe"/></div>')
+      $("#rec-area-cont").append('<div class="item-recipe"><div>Шаг'+(arrRecipe.length+1)+'</div><textarea class="recipe textareaDish"/></div>')
     },
     
     delStepRec:function(e){
@@ -244,7 +244,9 @@ view = views.Main.extend({
 	              serving: $('.serving',this.el).val(),
 	              complexity: $('.complexity',this.el).val(),
 	              kremling_diet: $('.kremling-diet',this.el).val(),
-	              cost: $("#cost",this.el).val()
+	              cost: $("#cost",this.el).val(),
+	              fact: $(".fact",this.el).val(),
+	              wish : $(".wishlist",this.el).val()
 	        }
 	        
 	        

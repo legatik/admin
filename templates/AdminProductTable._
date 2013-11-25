@@ -1,11 +1,17 @@
 <td><div class="title"><%= title %></div><input class="title hide" value="<%= title %>"/></td>
 <td><div class="species-cont"><%= species %></div><div class="spe hide"><select class="species">            <option>Фрукты</option>
-            <option>Овощи</option>
+            <option>Грибы</option>
+            <option>Крупы и каши</option>
+            <option>Молочные продукты</option>
+            <option>Фрукты и ягоды</option>
+            <option>Овощи и зелень</option>
             <option>Рыба и морепродукты</option>
             <option>Мясные продукты</option>
             <option>Яйца и молочные продукты</option>
             <option>Мука и мучные изделия</option>
-            <option>Добавки и витамины</option></select><button class="species-ok">ok</button></div></td>
+            <option>Добавки и витамины</option>
+            <option>Прочее</option>
+            <button class="species-ok">ok</button></div></td>
 <td>
     <% if(necessarily) {%><div class="icon remove-approved" /><%} else {%><div class="icon add-approved" /><%}%>
     <% if (role=="super_admin") {%>

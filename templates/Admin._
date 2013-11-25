@@ -4,13 +4,18 @@
 
 	<span>НАЗВАНИЕ </span> <input class="title"/><br />
     <span>КАТЕГОРИЯ </span> <select class="species">
-            <option>Фрукты</option>
-            <option>Овощи</option>
+            <option>Грибы</option>
+            <option>Крупы и каши</option>
+            <option>Молочные продукты</option>
+            <option>Фрукты и ягоды</option>
+            <option>Овощи и зелень</option>
             <option>Рыба и морепродукты</option>
             <option>Мясные продукты</option>
             <option>Яйца и молочные продукты</option>
             <option>Мука и мучные изделия</option>
-            <option>Добавки и витамины</option></select><br />
+            <option>Добавки и витамины</option>
+            <option>Прочее</option>
+            </select><br />
     <select class="ness">
             <option>Обязательно</option>
             <option>Необязательно</option>

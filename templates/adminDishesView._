@@ -3,18 +3,18 @@
     <table>
         <caption>Добавить новое блюдо</caption>
             <tbody>
-                <tr class="odd">
+                <tr>
                     <td>Кухня</td>
                     <td><select class="kitchen">
                       <option select>Русская</option>
                     </select>
                     <div class="error kitchen-error hide"> введите кухни</div></td>
                 </tr>
-                <tr>
+                <tr class="odd">
                     <td>Название</td>
                     <td><input value="test" class="title"/><div class="error title-error hide"> введите название</div></td>
                 </tr>
-                 <tr class="odd">
+                 <tr>
                     <td>Категория</td>
                     <td>
                         <select class="category">
@@ -47,7 +47,11 @@
                 <tr class="odd">
                     <td>Ингридиенты</td>
                     <td class='inglist'><input value="1" class="first ing clear"/><div class="error ing-error hide"></div><input value="1"  class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
-                </tr>               
+                </tr>     
+                <tr class="odd">
+                    <td></td>
+                    <td style="color:red">Нажми ентер после добовление продукта!!! <img width="108px" src="/assets/cook/stylesheets/images/you.jpg"></td>
+                </tr>              
                 <tr>
                     <td>Стоимость</td>
                     <td class='cost-cont'>
@@ -63,11 +67,11 @@
                     <td id="rec-area-cont"> 
                       <div class="item-recipe first">
                         <div>Шаг 1</div>
-                        <textarea  class="recipe">value</textarea>
+                        <textarea  class="recipe textareaDish">value</textarea>
                       </div>
                     </td>
                 </tr>
-                <tr>
+                <tr class="odd">
                   <td></td>
                   <td>
                      <button id="addStep">Добавить шаг рецепта</button>
@@ -75,21 +79,21 @@
                      <div style="display:inline-block" class="error recipe-error hide"> укажите рецепт</div>
                   </td>
                 </tr>
-              <tr class="odd">
+              <tr>
                   <td>Заметка</td>
                   <td>
-                     <textarea  class="recipe wishlist" style="display:none"></textarea>
+                     <textarea  class="wishlist textareaDish" style="display:none"></textarea>
                      <button id="addRmWish">Добавить заметку</button>
                   </td>
                 </tr>
-              <tr>
+              <tr class="odd">
                   <td>Интересный факт</td>
                   <td>
-                     <textarea  class="recipe fact" style="display:none"></textarea>
+                     <textarea  class="fact textareaDish" style="display:none"></textarea>
                      <button id="addRmFact">Добавить интересный факт</button>
                   </td>
                 </tr>
-                <tr class="odd">
+                <tr>
                     <td>Картинка главная</td>
                     <td>
                       <input type="file" id="title-picture" style="display:inline-block"/>
@@ -97,7 +101,7 @@
                       <div class="error picture-title-error hide">    укажите картинку</div>
                     </td>
                 </tr>
-               <tr>
+               <tr class="odd">
                     <td>Картинки шагов приготовлениея</td>
                     <td>
                       <input type="file" id="step-pictures" style="display:inline-block"/>
@@ -119,13 +123,17 @@
     <div id="modal-addIng">Вы указали новый ингридиент
         <input class="prodname"><br />
         <select class="species">
-            <option>Фрукты</option>
-            <option>Овощи</option>
+            <option>Грибы</option>
+            <option>Крупы и каши</option>
+            <option>Молочные продукты</option>
+            <option>Фрукты и ягоды</option>
+            <option>Овощи и зелень</option>
             <option>Рыба и морепродукты</option>
             <option>Мясные продукты</option>
             <option>Яйца и молочные продукты</option>
             <option>Мука и мучные изделия</option>
             <option>Добавки и витамины</option>
+            <option>Прочее</option>
         </select><br />
         <select class="ness">
             <option>Обязательно</option>
