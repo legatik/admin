@@ -46,9 +46,37 @@ view = views.Main.extend({
         'change #title-picture':"changeTitlePic",
         'change #step-pictures':"changeStepPics",
         'click #cancelTitle' : "cancelTitlePic",
-        'click #cancelStep' : "cancelStepPics"
+        'click #cancelStep' : "cancelStepPics",
+        'click #addRmWish' : "addRmWishList",
+        'click #addRmFact' : "addRmFact"
+        
         
 	},
+
+    addRmFact :function(){
+      var status = $(".fact",this.el).css("display")
+      if(status == "none"){
+        $(".fact",this.el).css("display","block")
+        $("#addRmFact",this.el).text("Удалить интересный факт")
+      }else{
+        $(".fact",this.el).css("display","none")
+        $(".fact",this.el).val("")
+        $("#addRmFact",this.el).text("Добавить интересный факт")
+      }
+    },
+
+
+    addRmWishList :function(){
+      var status = $(".wishlist").css("display")
+      if(status == "none"){
+        $(".wishlist").css("display","block")
+        $("#addRmWish").text("Удалить заметку")
+      }else{
+        $(".wishlist").css("display","none")
+        $(".wishlist").val("")
+        $("#addRmWish").text("Добавить заметку")
+      }
+    },
 
     cancelStepPics:function(){
       var confirm = window.confirm("Вы уверенны что хотите отменить загруженне файлы?")

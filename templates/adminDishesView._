@@ -3,7 +3,7 @@
     <table>
         <caption>Добавить новое блюдо</caption>
             <tbody>
-                <tr>
+                <tr class="odd">
                     <td>Кухня</td>
                     <td><select class="kitchen">
                       <option select>Русская</option>
@@ -18,12 +18,13 @@
                     <td>Категория</td>
                     <td>
                         <select class="category">
-                            <option select>Первое</option>
-                            <option>Второе</option> 
-                            <option>Закуска</option>
-                            <option>Десерт</option>
-                            <option>Соус</option>
-                            <option>Напиток</option> 
+                            <option select>Закуски</option>
+                            <option>Салаты</option> 
+                            <option>Супы</option>
+                            <option>Вторые блюда</option>
+                            <option>Выпечка</option>
+                            <option>Десерты</option> 
+                            <option>Напитки</option> 
                         </select>
                     </td>
                 </tr> 
@@ -35,21 +36,21 @@
                     <td>Количество порций</td>
                     <td><input type="number" value="1" class="serving"  /><div class="error serving-error hide"> укажите количество порций</div></td>
                 </tr>
-                <tr>
-                    <td class="odd">Сложность max(10)</td>
+                <tr class="odd">
+                    <td>Сложность max(10)</td>
                     <td><input type="number" style="width:174px" value="1" class="complexity"  max=10 min=1 /><div class="error complexity-error hide"> укажите сложность</div></td>
                 </tr>
                 <tr>
                     <td>Кремлевская диета</td>
                     <td><input type="number" class="kremling-diet" value="1" /><div class="error kremling-diet-error hide"> укажите значение кремлевской диеты</div></td>
                 </tr> 
-                <tr>
+                <tr class="odd">
                     <td>Ингридиенты</td>
                     <td class='inglist'><input value="1" class="first ing clear"/><div class="error ing-error hide"></div><input value="1"  class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
                 </tr>               
                 <tr>
                     <td>Стоимость</td>
-                    <td class='inglist'>
+                    <td class='cost-cont'>
                          <select id="cost">
                             <option select>Низкая</option>
                             <option>Средняя</option> 
@@ -73,7 +74,21 @@
                      <button id="delStepRec">Удалить последний шаг рецепта</button>
                      <div style="display:inline-block" class="error recipe-error hide"> укажите рецепт</div>
                   </td>
-                </tr>                               
+                </tr>
+              <tr class="odd">
+                  <td>Заметка</td>
+                  <td>
+                     <textarea  class="recipe wishlist" style="display:none"></textarea>
+                     <button id="addRmWish">Добавить заметку</button>
+                  </td>
+                </tr>
+              <tr>
+                  <td>Интересный факт</td>
+                  <td>
+                     <textarea  class="recipe fact" style="display:none"></textarea>
+                     <button id="addRmFact">Добавить интересный факт</button>
+                  </td>
+                </tr>
                 <tr class="odd">
                     <td>Картинка главная</td>
                     <td>
