@@ -106,6 +106,10 @@
                     <td>
                       <input type="file" id="step-pictures" style="display:inline-block"/>
                       <button id="cancelStep">X</button>
+                      <span>
+                        Загруженных картинок : 
+                        <span id="picLength">0</span>
+                      </span>
                     </td>
                </tr>   
             </tbody>

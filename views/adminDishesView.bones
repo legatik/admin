@@ -99,6 +99,7 @@ view = views.Main.extend({
 
     changeStepPics:function(e){
         this.fileStep.push(e.target.files[0])
+        $("#picLength",this.el).text(this.fileStep.length)
         
     },
     
@@ -278,6 +279,7 @@ view = views.Main.extend({
 				    type: 'POST',
 				    success: function(status){
 				      self.fileStep = []
+				      $("#picLength",self.el).text(0)
 				      console.log("status",status)
 				      dish.save(data)
 				    }
