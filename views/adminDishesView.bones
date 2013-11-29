@@ -105,6 +105,7 @@ view = views.Main.extend({
     
     changeTitlePic:function(e){
         this.fileTitle = e.target.files[0]
+        this.hideError()
     },
 
     addStepRec:function(e){
@@ -219,13 +220,21 @@ view = views.Main.extend({
 	        $('.kremling-diet-error', this.el).removeClass('hide')
 	        error=true
 	    }
-    
       
       if(!this.fileTitle){
         error = true
         $(".picture-title-error",this.el).removeClass('hide')
       }
       
+	    if (!$('#keyDish',this.el).val()) {
+	        $('.key-title-error', this.el).removeClass('hide')
+	        error=true
+	    }
+      
+	    if (!$('#descriptionDish',this.el).val()) {
+	        $('.desc-title-error', this.el).removeClass('hide')
+	        error=true
+	    }
       console.log("error",error)
 	    if (!error) {
 	        var id = Bones.utils.guid()
@@ -247,7 +256,9 @@ view = views.Main.extend({
 	              kremling_diet: $('.kremling-diet',this.el).val(),
 	              cost: $("#cost",this.el).val(),
 	              fact: $(".fact",this.el).val(),
-	              wish : $(".wishlist",this.el).val()
+	              wish : $(".wishlist",this.el).val(),
+	              key : $("#keyDish",this.el).val(),
+	              description : $("#descriptionDish",this.el).val()
 	        }
 	        
 	        

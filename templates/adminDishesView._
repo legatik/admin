@@ -111,7 +111,21 @@
                         <span id="picLength">0</span>
                       </span>
                     </td>
-               </tr>   
+               </tr>
+               <tr>
+                    <td>Ключ</td>
+                    <td>
+                      <textarea id="keyDish" style="width: 740px"/>
+                      <div class="error key-title-error hide">Введите ключ</div>
+                    </td>
+               </tr>
+               <tr class="odd">
+                    <td>Описание</td>
+                    <td>
+                      <textarea id="descriptionDish" style="width: 740px"/>
+                      <div class="error desc-title-error hide">Введите описание</div>
+                    </td>
+               </tr>       
             </tbody>
     </table>
     <br/>
