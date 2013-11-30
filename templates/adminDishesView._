@@ -12,7 +12,7 @@
                 </tr>
                 <tr class="odd">
                     <td>Название</td>
-                    <td><input value="test" class="title"/><div class="error title-error hide"> введите название</div></td>
+                    <td><input  class="title"/><div class="error title-error hide"> введите название</div></td>
                 </tr>
                  <tr>
                     <td>Категория</td>
@@ -30,23 +30,23 @@
                 </tr> 
                 <tr class="odd">
                     <td>Время приготовления (мин)</td>
-                    <td><input value="1" type="number" class="time" step=5 /><div class="error time-error hide"> укажите время приготовления</div></td>
+                    <td><input type="number" class="time" step=5 /><div class="error time-error hide"> укажите время приготовления</div></td>
                 </tr>
                 <tr>
                     <td>Количество порций</td>
-                    <td><input type="number" value="1" class="serving"  /><div class="error serving-error hide"> укажите количество порций</div></td>
+                    <td><input type="number"  class="serving"  /><div class="error serving-error hide"> укажите количество порций</div></td>
                 </tr>
                 <tr class="odd">
                     <td>Сложность max(10)</td>
-                    <td><input type="number" style="width:174px" value="1" class="complexity"  max=10 min=1 /><div class="error complexity-error hide"> укажите сложность</div></td>
+                    <td><input type="number" style="width:174px"  class="complexity"  max=10 min=1 /><div class="error complexity-error hide"> укажите сложность</div></td>
                 </tr>
                 <tr>
                     <td>Кремлевская диета</td>
-                    <td><input type="number" class="kremling-diet" value="1" /><div class="error kremling-diet-error hide"> укажите значение кремлевской диеты</div></td>
+                    <td><input type="number" class="kremling-diet"  /><div class="error kremling-diet-error hide"> укажите значение кремлевской диеты</div></td>
                 </tr> 
                 <tr class="odd">
                     <td>Ингридиенты</td>
-                    <td class='inglist'><input value="1" class="first ing clear"/><div class="error ing-error hide"></div><input value="1"  class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
+                    <td class='inglist'><input class="first ing clear"/><div class="error ing-error hide"></div><input   class="first col clear"/><div class="error col-error hide">укажите кол-во</div></td>
                 </tr>     
                 <tr class="odd">
                     <td></td>
@@ -67,7 +67,7 @@
                     <td id="rec-area-cont"> 
                       <div class="item-recipe first">
                         <div>Шаг 1</div>
-                        <textarea  class="recipe textareaDish">value</textarea>
+                        <textarea  class="recipe textareaDish"></textarea>
                       </div>
                     </td>
                 </tr>
