@@ -125,7 +125,14 @@
                       <textarea id="descriptionDish" style="width: 740px"/>
                       <div class="error desc-title-error hide">Введите описание</div>
                     </td>
-               </tr>       
+               </tr>
+               <tr>
+                    <td>Title</td>
+                    <td>
+                      <textarea id="title-key" style="width: 740px"/>
+                      <div class="error title-key-error hide">Введите title</div>
+                    </td>
+               </tr>          
             </tbody>
     </table>
     <br/>

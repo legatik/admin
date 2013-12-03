@@ -235,6 +235,12 @@ view = views.Main.extend({
 	        $('.desc-title-error', this.el).removeClass('hide')
 	        error=true
 	    }
+	    
+	    if (!$('#title-key',this.el).val()) {
+	        $('.title-key-error', this.el).removeClass('hide')
+	        error=true
+	    }
+	    
       console.log("error",error)
 	    if (!error) {
 	        var id = Bones.utils.guid()
@@ -258,7 +264,8 @@ view = views.Main.extend({
 	              fact: $(".fact",this.el).val(),
 	              wish : $(".wishlist",this.el).val(),
 	              key : $("#keyDish",this.el).val(),
-	              description : $("#descriptionDish",this.el).val()
+	              description : $("#descriptionDish",this.el).val(),
+	              title_key : $('#title-key',this.el).val()
 	        }
 	        
 	        
