@@ -192,7 +192,11 @@ view = views.Main.extend({
 	        }
 	    })
       
+      ingmasSend = []
       
+	    _.each(ingmas,function(el, index) {
+        ingmasSend.push(el)
+	    })
       
 	    if (mas.length==0) {
 	        $('.ing-error', this.el).removeClass('hide')
@@ -247,25 +251,26 @@ view = views.Main.extend({
 	        var dish = new models.Dish
 	        var data = {
 	              id: id,
-	              title: $('.title',this.el).val(),
-	              composition: mas,
-	              recipe: recipe,
-	              species: $('.category',this.el).val(),
-	              time_cooking: $('.time',this.el).val()*1,
-	              status: 'in_question',
-	              dateAdding: new Date(),
-	              who_added: this.user.id,
-	              comments:[],
-	              kitchen: $('.kitchen',this.el).val(),
-	              serving: $('.serving',this.el).val(),
-	              complexity: $('.complexity',this.el).val(),
-	              kremling_diet: $('.kremling-diet',this.el).val(),
-	              cost: $("#cost",this.el).val(),
-	              fact: $(".fact",this.el).val(),
-	              wish : $(".wishlist",this.el).val(),
-	              key : $("#keyDish",this.el).val(),
-	              description : $("#descriptionDish",this.el).val(),
-	              title_key : $('#title-key',this.el).val()
+	              title         : $('.title',this.el).val(),
+	              composition   : mas,
+	              recipe        : recipe,
+	              species       : $('.category',this.el).val(),
+	              time_cooking  : $('.time',this.el).val()*1,
+	              status        : 'in_question',
+	              dateAdding    : new Date(),
+	              who_added     : this.user.id,
+	              comments      : [],
+	              kitchen       : $('.kitchen',this.el).val(),
+	              serving       : $('.serving',this.el).val(),
+	              complexity    : $('.complexity',this.el).val(),
+	              kremling_diet : $('.kremling-diet',this.el).val(),
+	              cost          : $("#cost",this.el).val(),
+	              fact          : $(".fact",this.el).val(),
+	              wish          : $(".wishlist",this.el).val(),
+	              key           : $("#keyDish",this.el).val(),
+	              description   : $("#descriptionDish",this.el).val(),
+	              title_key     : $('#title-key',this.el).val(),
+	              ingredients   : ingmasSend
 	        }
 	        
 	        
