@@ -7,6 +7,38 @@
                     <td>Кухня</td>
                     <td><select class="kitchen">
                       <option select>Русская</option>
+		      <option select>Итальянская</option>
+		      <option select>Грузинская</option>
+		      <option select>Французкая</option>
+		      <option select>Китайская</option>
+		      <option select>Армянская</option>
+		      <option select>Украинская</option>
+		      <option select>Японская</option>
+		      <option select>Узбекская</option>
+		      <option select>Индийская</option>
+		      <option select>Азербайджанская</option>
+		      <option select>Мексиканская</option>
+		      <option select>Греческая</option>
+		      <option select>Тайская</option>
+		      <option select>Еврейская</option>
+		      <option select>Турецкая</option>
+		      <option select>Немецкая</option>
+		      <option select>Балканская</option>
+		      <option select>Испанская</option>
+		      <option select>Корейская</option>
+		      <option select>Молдавская</option>
+		      <option select>Татарская</option>
+		      <option select>Белорусская</option>
+		      <option select>Вьетнамская</option>
+		      <option select>Арабская</option>
+		      <option select>Восточноевропейская</option>
+		      <option select>Скандинавская</option>
+		      <option select>Прибалтийская</option>
+		      <option select>Латиноамериканская</option>
+		      <option select>Малазийская</option>
+		      <option select>Британская</option>
+
+
                     </select>
                     <div class="error kitchen-error hide"> введите кухни</div></td>
                 </tr>

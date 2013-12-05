@@ -7,7 +7,7 @@ view = views.Main.extend({
 	    this.fileTitle
 	    this.fileStep = []
 	    var self = this;
-		_.bindAll(this, 'render','changeTitlePic',"changeStepPics");
+		_.bindAll(this, 'render','changeTitlePic',"changeStepPics","addRmFact","addRmWishList");
 		this.prodMas = []
 		this.catMas = []
 	    
@@ -309,8 +309,8 @@ view = views.Main.extend({
 			    });
 			    
 	        
-
-
+          this.addRmFact()
+          this.addRmWishList()
 	        $('.success',this.el).removeClass('hide')
 	        $('input').val('')
 	        $('textarea').val('')
