@@ -1,13 +1,13 @@
 {
     "name": "cook",
     "version": "1.0.0",
-    "description": "Tube site",
+    "description": "Progect",
     "author": {},
     "dependencies": {
-        "bones": "https://github.com/sergeydt/bones/tarball/Cook",
+        "bones": "https://github.com/legatik/Bones/tarball/master",
         "express": "2.5.11",
     	"connect-redis": "1.4.1",
-        "bones-passport": "https://github.com/dunice-hmelev/bones-passport/tarball/oxhim",
+        "bones-passport": "https://github.com/legatik/Bones-passport/tarball/master",
         "f_underscore": "0.1.0",
         "socket.io" : "0.9.16",
         "redis" : "0.8.4",
