@@ -250,7 +250,8 @@ view = views.Main.extend({
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
 	        var data = {
-	              id: id,
+	              id_picture    : id,
+	              id            : id,
 	              title         : $('.title',this.el).val(),
 	              composition   : mas,
 	              recipe        : recipe,
@@ -289,7 +290,7 @@ view = views.Main.extend({
 	        
 	        
 	        
-	        newForm.append("id",id)
+	        newForm.append("id_picture",id)
 	        
 	        
 	            
@@ -304,13 +305,27 @@ view = views.Main.extend({
 				      self.fileStep = []
 				      $("#picLength",self.el).text(0)
 				      console.log("status",status)
-				      dish.save(data)
+				      self.fileTitle = false
+				      dish.save(data, {
+				        complete: function() {
+				          console.log('complete', arguments)
+				        
+				        }
+				      
+				      })
 				    }
 			    });
-			    
-	        
-          this.addRmFact()
-          this.addRmWishList()
+
+          var statusF = $(".fact",this.el).css("display")
+          if(statusF == "block"){
+            this.addRmFact()
+          }
+
+          var statusW = $(".wishlist").css("display")
+          if(statusW == "block"){
+             this.addRmWishList()
+          }
+          
 	        $('.success',this.el).removeClass('hide')
 	        $('input').val('')
 	        $('textarea').val('')

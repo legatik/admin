@@ -13,7 +13,8 @@ var server = Bones.Server.extend({
 		}
 		
 		this.post('/savePucture', function (req, res) {
-        var id = req.body.id
+        var id = req.body.id_picture
+        console.log("HEAREEEEE",req.body.id)
         _.each(req.files, function(file, field) {
             
       	fs.readFile(file.path, function (err, data) {
