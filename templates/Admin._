@@ -5,8 +5,7 @@
 	<span>НАЗВАНИЕ </span> <input class="title"/><br />
     <span>КАТЕГОРИЯ </span> <select class="species">
             <option>Грибы</option>
-            <option>Крупы и каши</option>
-            <option>Молочные продукты</option>
+            <option>Крупы и орехи</option>
             <option>Фрукты и ягоды</option>
             <option>Овощи и зелень</option>
             <option>Рыба и морепродукты</option>
@@ -14,7 +13,6 @@
             <option>Яйца и молочные продукты</option>
             <option>Мука и мучные изделия</option>
             <option>Добавки и витамины</option>
-            <option>Прочее</option>
             </select><br />
     <select class="ness">
             <option>Обязательно</option>
