@@ -245,11 +245,21 @@ view = views.Main.extend({
 	        error=true
 	    }
 	    
+	    if(this.fileStep.length > 0){
+	      valTest = $("#step-pictures-acuol").val()
+	      if(!valTest){
+	        $('.step-pictures-acuol-err', this.el).removeClass('hide')
+	        error=true
+	      }
+	    
+	    }
+	    
       console.log("error",error)
 	    if (!error) {
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
 	        var data = {
+	              pic_equal     : $("#step-pictures-acuol").val(),
 	              qty_picture   : this.fileStep.length,
 	              id_picture    : id,
 	              id            : id,
@@ -275,7 +285,7 @@ view = views.Main.extend({
 	              ingredients   : ingmasSend
 	        }
 	        
- 	        
+ 	        console.log("sds",data)
 	        
 	        var newForm = new FormData()
 	        newForm.append("title",this.fileTitle)

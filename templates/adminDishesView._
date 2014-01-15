@@ -144,6 +144,13 @@
                       </span>
                     </td>
                </tr>
+               <tr class="odd">
+                    <td>Соотношение картинок с шагами<br>через запятую, без пробела</td>
+                    <td>
+                      <input type="text" id="step-pictures-acuol" style="display:inline-block"/>
+                      <div class="error step-pictures-acuol-err hide"> укажите cooтношение</div>
+                    </td>
+               </tr>
                <tr>
                     <td>Ключ</td>
                     <td>
