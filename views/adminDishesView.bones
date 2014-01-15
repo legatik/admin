@@ -250,6 +250,7 @@ view = views.Main.extend({
 	        var id = Bones.utils.guid()
 	        var dish = new models.Dish
 	        var data = {
+	              qty_picture   : this.fileStep.length,
 	              id_picture    : id,
 	              id            : id,
 	              title         : $('.title',this.el).val(),
@@ -274,13 +275,10 @@ view = views.Main.extend({
 	              ingredients   : ingmasSend
 	        }
 	        
-	        
  	        
 	        
 	        var newForm = new FormData()
 	        newForm.append("title",this.fileTitle)
-	        
-	        console.log("this.fileStep",this.fileStep)
 	        
 	        this.fileStep.forEach(function(file,index){
 	          console.log("index",index)
